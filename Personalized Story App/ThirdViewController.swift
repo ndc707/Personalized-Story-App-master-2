@@ -1,20 +1,17 @@
 //
-//  ViewController.swift
+//  ThirdViewController.swift
 //  Personalized Story App
 //
-//  Created by Emily Kirk on 4/8/19.
+//  Created by Student on 4/16/19.
 //  Copyright © 2019 Emily Kirk. All rights reserved.
 //
 
 import UIKit
 
-class StoriesViewController: UIViewController {
-// test comment
-
+class ThirdViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-
 }
-
