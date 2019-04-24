@@ -9,9 +9,8 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-    
-    // test comment
-    
+        
+    var storyWriter = StoryWriter()
     
     @IBOutlet weak var nameLable: UILabel!
     @IBOutlet weak var genderLabel: UILabel!
@@ -57,6 +56,21 @@ class SecondViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        storyWriter.nameOne = nameOneTextField.text!
+        storyWriter.nameTwo = nameTwoTextField.text!
+        storyWriter.nameThree = nameThreeTextField.text!
+        storyWriter.nameFour = nameFourTextField.text!
+        storyWriter.nameFive = nameFiveTextField.text!
+        storyWriter.nameSix = nameSixTextField.text!
+        storyWriter.nameSeven = nameSevenTextField.text!
+        storyWriter.nameEight = nameEightTextField.text!
+        storyWriter.nameNine = nameNineTextField.text!
+        storyWriter.nameTen = nameTenTextField.text!
+        
+        let dvc = segue.destination as! ThirdViewController
+        dvc.storyWriter = self.storyWriter
+    }
     
 }

@@ -14,6 +14,7 @@
 		4D1B88D8225BAEE200A56325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B88D6225BAEE200A56325 /* Main.storyboard */; };
 		4D1B88DA225BAEE500A56325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B88D9225BAEE500A56325 /* Assets.xcassets */; };
 		4D1B88DD225BAEE500A56325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B88DB225BAEE500A56325 /* LaunchScreen.storyboard */; };
+		4D51487E2270C4790053B271 /* StoryWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D51487D2270C4790053B271 /* StoryWriter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4D1B88D9225BAEE500A56325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1B88DC225BAEE500A56325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1B88DE225BAEE500A56325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D51487D2270C4790053B271 /* StoryWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryWriter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4D1B88D4225BAEE200A56325 /* StoriesViewController.swift */,
 				3F239D91226F752F003158A0 /* SecondViewController.swift */,
 				3F239D93226F7566003158A0 /* ThirdViewController.swift */,
+				4D51487D2270C4790053B271 /* StoryWriter.swift */,
 				4D1B88D9225BAEE500A56325 /* Assets.xcassets */,
 				4D1B88DB225BAEE500A56325 /* LaunchScreen.storyboard */,
 				4D1B88DE225BAEE500A56325 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D51487E2270C4790053B271 /* StoryWriter.swift in Sources */,
 				3F239D92226F752F003158A0 /* SecondViewController.swift in Sources */,
 				4D1B88D5225BAEE200A56325 /* StoriesViewController.swift in Sources */,
 				3F239D94226F7566003158A0 /* ThirdViewController.swift in Sources */,

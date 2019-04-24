@@ -9,7 +9,6 @@
 import UIKit
 
 class StoriesViewController: UIViewController {
-// test comment
 
     override func viewDidLoad() {
         super.viewDidLoad()

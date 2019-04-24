@@ -10,8 +10,12 @@ import UIKit
 
 class ThirdViewController: UIViewController {
     
+    var storyWriter = StoryWriter()
+    
+    // connect storyLabel
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //storyLabel.text = storyWriter.writeStory()
     }
 }
