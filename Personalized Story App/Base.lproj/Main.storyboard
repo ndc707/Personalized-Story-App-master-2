@@ -18,24 +18,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[insert creative name here]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IsM-Kh-K3k">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="[insert creative name here]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IsM-Kh-K3k">
                                 <rect key="frame" x="36" y="83" width="302" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52694684799616087" green="0.90685995852386592" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="26"/>
-                                <color key="textColor" red="1" green="0.79934893559999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HorrorButton" translatesAutoresizingMaskIntoConstraints="NO" id="eXZ-Ho-ClN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HorrorButton" translatesAutoresizingMaskIntoConstraints="NO" id="eXZ-Ho-ClN">
                                 <rect key="frame" x="67" y="156" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ApocalypseButton" translatesAutoresizingMaskIntoConstraints="NO" id="tSw-sd-ibh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ApocalypseButton" translatesAutoresizingMaskIntoConstraints="NO" id="tSw-sd-ibh">
                                 <rect key="frame" x="67" y="312" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="2Z7-OB-8RV"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhK-On-Xa3">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhK-On-Xa3">
                                 <rect key="frame" x="67" y="156" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="9Q0-UA-7M7"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="21"/>
                                 <state key="normal">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -44,9 +46,8 @@
                                     <segue destination="QLj-FW-FnK" kind="show" id="suM-Xp-P8I"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hq-WZ-tOb">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hq-WZ-tOb">
                                 <rect key="frame" x="67" y="312" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="21"/>
                                 <state key="normal">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -55,26 +56,48 @@
                                     <segue destination="QLj-FW-FnK" kind="show" id="Gud-vH-XR3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJf-F7-5ot">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJf-F7-5ot">
                                 <rect key="frame" x="67" y="477" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="23"/>
                                 <state key="normal" title="Story 3">
-                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="QLj-FW-FnK" kind="show" id="mH0-2g-bjO"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.52694684800000002" green="0.90685995850000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1hq-WZ-tOb" firstAttribute="trailing" secondItem="RJf-F7-5ot" secondAttribute="trailing" id="5Uh-8J-Trz"/>
+                            <constraint firstItem="RG1-iv-BGJ" firstAttribute="bottom" secondItem="RJf-F7-5ot" secondAttribute="bottom" constant="62" id="8JU-PO-n26"/>
+                            <constraint firstItem="IsM-Kh-K3k" firstAttribute="centerX" secondItem="ooe-eJ-3fV" secondAttribute="centerX" id="9KS-gP-k8c"/>
+                            <constraint firstItem="IsM-Kh-K3k" firstAttribute="centerX" secondItem="eXZ-Ho-ClN" secondAttribute="centerX" id="Cra-4U-GZ5"/>
+                            <constraint firstItem="1hq-WZ-tOb" firstAttribute="bottom" secondItem="tSw-sd-ibh" secondAttribute="bottom" id="Dzz-KK-gFp"/>
+                            <constraint firstItem="RJf-F7-5ot" firstAttribute="top" secondItem="tSw-sd-ibh" secondAttribute="bottom" constant="37" id="GUK-Cb-slc"/>
+                            <constraint firstItem="tSw-sd-ibh" firstAttribute="leading" secondItem="1hq-WZ-tOb" secondAttribute="leading" id="GW6-CV-P0z"/>
+                            <constraint firstItem="eXZ-Ho-ClN" firstAttribute="trailing" secondItem="WhK-On-Xa3" secondAttribute="trailing" id="HNA-ZF-WmB"/>
+                            <constraint firstItem="IsM-Kh-K3k" firstAttribute="top" secondItem="RG1-iv-BGJ" secondAttribute="top" constant="19" id="Nrx-lx-R3j"/>
+                            <constraint firstItem="WhK-On-Xa3" firstAttribute="leading" secondItem="eXZ-Ho-ClN" secondAttribute="leading" id="Qyr-CQ-ccv"/>
+                            <constraint firstItem="WhK-On-Xa3" firstAttribute="bottom" secondItem="eXZ-Ho-ClN" secondAttribute="bottom" id="VCa-qB-Dhl"/>
+                            <constraint firstItem="eXZ-Ho-ClN" firstAttribute="top" secondItem="WhK-On-Xa3" secondAttribute="top" id="d8Z-3x-wD5"/>
+                            <constraint firstItem="tSw-sd-ibh" firstAttribute="top" secondItem="eXZ-Ho-ClN" secondAttribute="bottom" constant="28" id="fAy-kw-g1P"/>
+                            <constraint firstItem="tSw-sd-ibh" firstAttribute="top" secondItem="1hq-WZ-tOb" secondAttribute="top" id="nsx-FV-dB4"/>
+                            <constraint firstItem="eXZ-Ho-ClN" firstAttribute="top" secondItem="IsM-Kh-K3k" secondAttribute="bottom" constant="40" id="pfO-in-odk"/>
+                            <constraint firstItem="1hq-WZ-tOb" firstAttribute="trailing" secondItem="tSw-sd-ibh" secondAttribute="trailing" id="qdr-dU-FP9"/>
+                            <constraint firstItem="IsM-Kh-K3k" firstAttribute="leading" secondItem="RG1-iv-BGJ" secondAttribute="leading" constant="36" id="rgj-ST-f1t"/>
+                            <constraint firstItem="1hq-WZ-tOb" firstAttribute="leading" secondItem="RJf-F7-5ot" secondAttribute="leading" id="sun-hY-Uxd"/>
+                            <constraint firstItem="WhK-On-Xa3" firstAttribute="leading" secondItem="1hq-WZ-tOb" secondAttribute="leading" id="wVR-5X-zae"/>
+                            <constraint firstItem="eXZ-Ho-ClN" firstAttribute="leading" secondItem="RG1-iv-BGJ" secondAttribute="leading" constant="67" id="weH-pF-4do"/>
+                            <constraint firstItem="eXZ-Ho-ClN" firstAttribute="trailing" secondItem="1hq-WZ-tOb" secondAttribute="trailing" id="wxu-kZ-2hU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="RG1-iv-BGJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="kCh-fg-Poq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="168-GO-7qC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1056.8" y="200.14992503748127"/>
+            <point key="canvasLocation" x="978" y="200"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="ifp-kx-AYs">
@@ -85,49 +108,49 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hGh-hp-x8K">
-                                <rect key="frame" x="43" y="98" width="97" height="30"/>
+                                <rect key="frame" x="43" y="110" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OUf-bm-LA2">
-                                <rect key="frame" x="43" y="150" width="97" height="30"/>
+                                <rect key="frame" x="43" y="162" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 3" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mmy-It-chg">
-                                <rect key="frame" x="43" y="202" width="97" height="30"/>
+                                <rect key="frame" x="43" y="214" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 4" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vhe-Vh-GUc">
-                                <rect key="frame" x="43" y="254" width="97" height="30"/>
+                                <rect key="frame" x="43" y="266" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 5" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nl1-wc-dbo">
-                                <rect key="frame" x="43" y="306" width="97" height="30"/>
+                                <rect key="frame" x="43" y="318" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 6" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gqu-LO-8UF">
-                                <rect key="frame" x="43" y="355" width="97" height="30"/>
+                                <rect key="frame" x="43" y="367" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 7" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rqg-jO-aIt">
-                                <rect key="frame" x="43" y="406" width="97" height="30"/>
+                                <rect key="frame" x="43" y="418" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -137,7 +160,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 8" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bMl-6D-CE1">
-                                <rect key="frame" x="43" y="459" width="97" height="30"/>
+                                <rect key="frame" x="43" y="471" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -147,7 +170,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 9" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HwX-mA-aEm">
-                                <rect key="frame" x="43" y="512" width="97" height="30"/>
+                                <rect key="frame" x="43" y="524" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -157,7 +180,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 10" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HoF-iY-cal">
-                                <rect key="frame" x="43" y="569" width="97" height="30"/>
+                                <rect key="frame" x="43" y="581" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -167,7 +190,7 @@
                                 </connections>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="EnD-Lk-Iab">
-                                <rect key="frame" x="210" y="100" width="121" height="29"/>
+                                <rect key="frame" x="210" y="112" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="M"/>
@@ -180,7 +203,7 @@
                                 </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="LW0-dk-LEH">
-                                <rect key="frame" x="210" y="152" width="121" height="29"/>
+                                <rect key="frame" x="210" y="164" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="M"/>
@@ -193,7 +216,7 @@
                                 </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xaE-43-O4B">
-                                <rect key="frame" x="210" y="204" width="121" height="29"/>
+                                <rect key="frame" x="210" y="216" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="M"/>
@@ -206,7 +229,7 @@
                                 </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dIz-4W-k1E">
-                                <rect key="frame" x="210" y="256" width="121" height="29"/>
+                                <rect key="frame" x="210" y="268" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="M"/>
@@ -219,7 +242,7 @@
                                 </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="djP-hx-Fuo">
-                                <rect key="frame" x="210" y="308" width="121" height="29"/>
+                                <rect key="frame" x="210" y="320" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="M"/>
@@ -232,7 +255,7 @@
                                 </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5AD-ZG-8rD">
-                                <rect key="frame" x="210" y="357" width="121" height="29"/>
+                                <rect key="frame" x="210" y="369" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="M"/>
@@ -245,7 +268,7 @@
                                 </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="W7u-6b-3Yi">
-                                <rect key="frame" x="210" y="408" width="121" height="29"/>
+                                <rect key="frame" x="210" y="420" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="M"/>
@@ -258,7 +281,7 @@
                                 </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="neq-lw-ZIp">
-                                <rect key="frame" x="210" y="461" width="121" height="29"/>
+                                <rect key="frame" x="210" y="473" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="M"/>
@@ -268,7 +291,7 @@
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tPE-LW-bEM">
-                                <rect key="frame" x="210" y="514" width="121" height="29"/>
+                                <rect key="frame" x="210" y="526" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="M"/>
@@ -278,7 +301,7 @@
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yJ6-sU-kG4">
-                                <rect key="frame" x="210" y="571" width="121" height="29"/>
+                                <rect key="frame" x="210" y="583" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="M"/>
@@ -288,25 +311,25 @@
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lo5-97-Lwq">
-                                <rect key="frame" x="70" y="55" width="45" height="21"/>
+                                <rect key="frame" x="70" y="83" width="44" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcJ-Ii-dNF">
-                                <rect key="frame" x="242" y="55" width="57" height="21"/>
+                                <rect key="frame" x="242" y="83" width="54" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dol-bY-cSg">
-                                <rect key="frame" x="167" y="612" width="41" height="35"/>
+                                <rect key="frame" x="163" y="626" width="58" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="24"/>
                                 <state key="normal" title="Play!">
-                                    <color key="titleColor" red="1" green="0.79934893559999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="playButton:" destination="QLj-FW-FnK" eventType="touchUpInside" id="hff-7T-5mf"/>
@@ -314,7 +337,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.52694684800000002" green="0.90685995850000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="fds-jI-Hmd"/>
                     </view>
                     <connections>
@@ -334,7 +357,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tht-Wz-jlo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2022" y="200"/>
+            <point key="canvasLocation" x="1890" y="200"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="Yic-aq-uGX">
@@ -347,18 +370,17 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Story" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6h-3g-pCp">
                                 <rect key="frame" x="128" y="282" width="118" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="1" green="0.79934893559999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="23"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.19597278800000001" green="0.94080414980000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="BSR-A5-wy5"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3v-pW-au4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2858" y="200"/>
+            <point key="canvasLocation" x="2818" y="200"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Fw0-hM-HGf">
