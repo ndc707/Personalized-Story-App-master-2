@@ -21,7 +21,7 @@ class StoryWriter {
     var nameTen = ""
     
     func writeStory() -> String {
-        return ""
+        return "\(nameOne), \(nameTwo), \(nameThree), \(nameFour), \(nameFive), \(nameSix), \(nameSeven), \(nameEight), \(nameNine), \(nameTen)"
     }
     
 }

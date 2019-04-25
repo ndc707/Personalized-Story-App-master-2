@@ -12,10 +12,10 @@ class ThirdViewController: UIViewController {
     
     var storyWriter = StoryWriter()
     
-    // connect storyLabel
+    @IBOutlet weak var storyLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //storyLabel.text = storyWriter.writeStory()
+        storyLabel.text = storyWriter.writeStory()
     }
 }

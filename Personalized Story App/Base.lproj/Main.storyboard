@@ -367,20 +367,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Story" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6h-3g-pCp">
-                                <rect key="frame" x="128" y="282" width="118" height="102"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6h-3g-pCp">
+                                <rect key="frame" x="28" y="218" width="319" height="231"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="319" id="EjO-zm-ZUX"/>
+                                    <constraint firstAttribute="height" constant="231" id="efj-Zs-fqb"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="23"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.19597278800000001" green="0.94080414980000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="l6h-3g-pCp" firstAttribute="centerX" secondItem="bBO-Nr-qug" secondAttribute="centerX" id="gkk-Zt-Zf3"/>
+                            <constraint firstItem="l6h-3g-pCp" firstAttribute="centerY" secondItem="bBO-Nr-qug" secondAttribute="centerY" id="gzD-l1-RCg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="BSR-A5-wy5"/>
                     </view>
+                    <connections>
+                        <outlet property="storyLabel" destination="l6h-3g-pCp" id="50q-l4-YUJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3v-pW-au4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2818" y="200"/>
+            <point key="canvasLocation" x="2816.8000000000002" y="199.25037481259372"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Fw0-hM-HGf">
