@@ -25,12 +25,23 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var nameNineTextField: UITextField!
     @IBOutlet weak var nameTenTextField: UITextField!
     
-    @IBAction func playButton(_ sender: UIButton) {
-    }
+    @IBOutlet weak var pn1SegmentedController: UISegmentedControl!
+    @IBOutlet weak var pn2SegmentedController: UISegmentedControl!
     
+    @IBOutlet weak var pn3SegmentedController: UISegmentedControl!
+    @IBOutlet weak var pn4SegmentedController: UISegmentedControl!
     
+    @IBOutlet weak var pn5SegmentedController: UISegmentedControl!
+    @IBOutlet weak var pn6SegmenetedController: UISegmentedControl!
+    @IBOutlet weak var pn7SegmentedController: UISegmentedControl!
+    @IBOutlet weak var pn8SegmentedController: UISegmentedControl!
+    @IBOutlet weak var pn9SegmentedController: UISegmentedControl!
+    @IBOutlet weak var pn10SegmentedController: UISegmentedControl!
+    
+  
     override func viewDidLoad() {
         super.viewDidLoad()
+     
         
         // Do any additional setup after loading the view.
     }
@@ -75,6 +86,9 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func pn10SegmentedController(_ sender: UISegmentedControl) {
+    }
+    
+    @IBAction func playButton(_ sender: UIButton) {
     }
     
 }

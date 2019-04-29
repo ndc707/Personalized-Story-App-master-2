@@ -212,9 +212,6 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="pn3SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="i19-rw-J54"/>
-                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dIz-4W-k1E">
                                 <rect key="frame" x="210" y="268" width="121" height="29"/>
@@ -351,6 +348,16 @@
                         <outlet property="nameTenTextField" destination="HoF-iY-cal" id="T4b-3t-zqO"/>
                         <outlet property="nameThreeTextField" destination="mmy-It-chg" id="ANO-eW-QfN"/>
                         <outlet property="nameTwoTextField" destination="OUf-bm-LA2" id="3V5-ui-6bw"/>
+                        <outlet property="pn10SegmentedController" destination="yJ6-sU-kG4" id="4fY-Sf-aeI"/>
+                        <outlet property="pn1SegmentedController" destination="EnD-Lk-Iab" id="bCt-9h-Cc7"/>
+                        <outlet property="pn2SegmentedController" destination="LW0-dk-LEH" id="zt2-EO-q0G"/>
+                        <outlet property="pn3SegmentedController" destination="xaE-43-O4B" id="qVB-Kw-aOY"/>
+                        <outlet property="pn4SegmentedController" destination="dIz-4W-k1E" id="jKw-tW-uqW"/>
+                        <outlet property="pn5SegmentedController" destination="djP-hx-Fuo" id="kvE-KD-alf"/>
+                        <outlet property="pn6SegmenetedController" destination="5AD-ZG-8rD" id="Jq5-m2-gUY"/>
+                        <outlet property="pn7SegmentedController" destination="W7u-6b-3Yi" id="XCP-yh-bUA"/>
+                        <outlet property="pn8SegmentedController" destination="neq-lw-ZIp" id="cbU-ba-edY"/>
+                        <outlet property="pn9SegmentedController" destination="tPE-LW-bEM" id="zAk-7U-ebY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tht-Wz-jlo" userLabel="First Responder" sceneMemberID="firstResponder"/>
