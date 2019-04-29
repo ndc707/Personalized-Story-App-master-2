@@ -28,28 +28,6 @@ class SecondViewController: UIViewController {
     @IBAction func playButton(_ sender: UIButton) {
     }
     
-    @IBAction func pn1SegmentedController(_ sender: UISegmentedControl) {
-    }
-    @IBAction func pn2SegmentedController(_ sender: UISegmentedControl) {
-    }
-    @IBAction func pn3SegmentedController(_ sender: UISegmentedControl) {
-    }
-    @IBAction func pn4SegmentedController(_ sender: UISegmentedControl) {
-    }
-    @IBAction func pn5SegmentedController(_ sender: UISegmentedControl) {
-    }
-    @IBAction func pn6SegmentedController(_ sender: UISegmentedControl) {
-    }
-    @IBAction func pn7SegmentedController(_ sender: UITextField) {
-    }
-    @IBAction func pn8SegmentedController(_ sender: UITextField) {
-    }
-    @IBAction func pn9SegmentedController(_ sender: UITextField) {
-    }
-    @IBAction func pn10SegmentedController(_ sender: UITextField) {
-    }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,6 +49,32 @@ class SecondViewController: UIViewController {
         
         let dvc = segue.destination as! ThirdViewController
         dvc.storyWriter = self.storyWriter
+        
+    }
+    
+    @IBAction func pn1SegmentedController(_ sender: UISegmentedControl) {
+    }
+    @IBAction func pn2SegmentedController(_ sender: UISegmentedControl) {
+    }
+    @IBAction func pn3SegmentedController(_ sender: UISegmentedControl) {
+    }
+    @IBAction func pn4SegmentedController(_ sender: UISegmentedControl) {
+    }
+    @IBAction func pn5SegmentedController(_ sender: UISegmentedControl) {
+    }
+    @IBAction func pn6SegmentedController(_ sender: UISegmentedControl) {
+    }
+    
+    @IBAction func pn7SegmentedController(_ sender: UISegmentedControl) {
+    }
+    
+    @IBAction func pn8SegmentedController(_ sender: UISegmentedControl) {
+    }
+    
+    @IBAction func pn9SegmentedController(_ sender: UISegmentedControl) {
+    }
+    
+    @IBAction func pn10SegmentedController(_ sender: UISegmentedControl) {
     }
     
 }

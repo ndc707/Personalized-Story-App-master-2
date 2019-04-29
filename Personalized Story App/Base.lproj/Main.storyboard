@@ -155,9 +155,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="pn7SegmentedController:" destination="QLj-FW-FnK" eventType="editingDidEnd" id="rdw-D3-a1b"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 8" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bMl-6D-CE1">
                                 <rect key="frame" x="43" y="471" width="97" height="30"/>
@@ -165,9 +162,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="pn8SegmentedController:" destination="QLj-FW-FnK" eventType="editingDidEnd" id="XfH-Ri-qvH"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 9" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HwX-mA-aEm">
                                 <rect key="frame" x="43" y="524" width="97" height="30"/>
@@ -175,9 +169,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="pn9SegmentedController:" destination="QLj-FW-FnK" eventType="editingDidEnd" id="ZCO-QD-p3p"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 10" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HoF-iY-cal">
                                 <rect key="frame" x="43" y="581" width="97" height="30"/>
@@ -185,9 +176,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="pn10SegmentedController:" destination="QLj-FW-FnK" eventType="editingDidEnd" id="aTf-IO-oFx"/>
-                                </connections>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="EnD-Lk-Iab">
                                 <rect key="frame" x="210" y="112" width="121" height="29"/>
@@ -278,6 +266,7 @@
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <action selector="pn6SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="ZHg-6I-fAk"/>
+                                    <action selector="pn7SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="i7W-Sv-4pB"/>
                                 </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="neq-lw-ZIp">
@@ -289,6 +278,9 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="pn8SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="zdc-le-RIg"/>
+                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tPE-LW-bEM">
                                 <rect key="frame" x="210" y="526" width="121" height="29"/>
@@ -299,6 +291,9 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="pn9SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="dz9-li-jlt"/>
+                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yJ6-sU-kG4">
                                 <rect key="frame" x="210" y="583" width="121" height="29"/>
@@ -309,6 +304,9 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="pn10SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="OV1-T5-4fQ"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lo5-97-Lwq">
                                 <rect key="frame" x="70" y="83" width="44" height="22"/>
