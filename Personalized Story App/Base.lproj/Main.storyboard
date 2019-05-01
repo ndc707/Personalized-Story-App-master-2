@@ -348,7 +348,6 @@
                         <outlet property="nameTenTextField" destination="HoF-iY-cal" id="T4b-3t-zqO"/>
                         <outlet property="nameThreeTextField" destination="mmy-It-chg" id="ANO-eW-QfN"/>
                         <outlet property="nameTwoTextField" destination="OUf-bm-LA2" id="3V5-ui-6bw"/>
-                        <outlet property="pn10SegmentedController" destination="yJ6-sU-kG4" id="4fY-Sf-aeI"/>
                         <outlet property="pn1SegmentedController" destination="EnD-Lk-Iab" id="bCt-9h-Cc7"/>
                         <outlet property="pn2SegmentedController" destination="LW0-dk-LEH" id="zt2-EO-q0G"/>
                         <outlet property="pn3SegmentedController" destination="xaE-43-O4B" id="qVB-Kw-aOY"/>

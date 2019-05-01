@@ -11,6 +11,7 @@ import UIKit
 class SecondViewController: UIViewController {
         
     var storyWriter = StoryWriter()
+    var pronoun = ""
     
     @IBOutlet weak var nameLable: UILabel!
     @IBOutlet weak var genderLabel: UILabel!
@@ -27,10 +28,8 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var pn1SegmentedController: UISegmentedControl!
     @IBOutlet weak var pn2SegmentedController: UISegmentedControl!
-    
     @IBOutlet weak var pn3SegmentedController: UISegmentedControl!
     @IBOutlet weak var pn4SegmentedController: UISegmentedControl!
-    
     @IBOutlet weak var pn5SegmentedController: UISegmentedControl!
     @IBOutlet weak var pn6SegmenetedController: UISegmentedControl!
     @IBOutlet weak var pn7SegmentedController: UISegmentedControl!
@@ -64,28 +63,138 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func pn1SegmentedController(_ sender: UISegmentedControl) {
+        switch pn1SegmentedController.selectedSegmentIndex
+        {
+        case 0:
+            pronoun = "M"
+        case 1:
+            pronoun = "F"
+        case 2:
+            pronoun = "N/A"
+        default:
+            print("Error")
+        }
     }
     @IBAction func pn2SegmentedController(_ sender: UISegmentedControl) {
+        switch pn2SegmentedController.selectedSegmentIndex
+        {
+        case 0:
+            pronoun = "M"
+        case 1:
+            pronoun = "F"
+        case 2:
+            pronoun = "N/A"
+        default:
+            print("Error")
+        }
     }
     @IBAction func pn3SegmentedController(_ sender: UISegmentedControl) {
+        switch pn3SegmentedController.selectedSegmentIndex
+        {
+        case 0:
+            pronoun = "M"
+        case 1:
+            pronoun = "F"
+        case 2:
+            pronoun = "N/A"
+        default:
+            print("Error")
+        }
     }
     @IBAction func pn4SegmentedController(_ sender: UISegmentedControl) {
+        switch pn4SegmentedController.selectedSegmentIndex
+        {
+        case 0:
+            pronoun = "M"
+        case 1:
+            pronoun = "F"
+        case 2:
+            pronoun = "N/A"
+        default:
+            print("Error")
+        }
     }
     @IBAction func pn5SegmentedController(_ sender: UISegmentedControl) {
+        switch pn5SegmentedController.selectedSegmentIndex
+        {
+        case 0:
+            pronoun = "M"
+        case 1:
+            pronoun = "F"
+        case 2:
+            pronoun = "N/A"
+        default:
+            print("Error")
+        }
     }
     @IBAction func pn6SegmentedController(_ sender: UISegmentedControl) {
+        switch pn6SegmenetedController.selectedSegmentIndex
+        {
+        case 0:
+            pronoun = "M"
+        case 1:
+            pronoun = "F"
+        case 2:
+            pronoun = "N/A"
+        default:
+            print("Error")
+        }
     }
     
     @IBAction func pn7SegmentedController(_ sender: UISegmentedControl) {
+        switch pn7SegmentedController.selectedSegmentIndex
+        {
+        case 0:
+            pronoun = "M"
+        case 1:
+            pronoun = "F"
+        case 2:
+            pronoun = "N/A"
+        default:
+            print("Error")
+        }
     }
     
     @IBAction func pn8SegmentedController(_ sender: UISegmentedControl) {
+        switch pn8SegmentedController.selectedSegmentIndex
+        {
+        case 0:
+            pronoun = "M"
+        case 1:
+            pronoun = "F"
+        case 2:
+            pronoun = "N/A"
+        default:
+            print("Error")
+        }
     }
     
     @IBAction func pn9SegmentedController(_ sender: UISegmentedControl) {
+        switch pn9SegmentedController.selectedSegmentIndex
+        {
+        case 0:
+            pronoun = "M"
+        case 1:
+            pronoun = "F"
+        case 2:
+            pronoun = "N/A"
+        default:
+            print("Error")
+        }
     }
     
     @IBAction func pn10SegmentedController(_ sender: UISegmentedControl) {
+        switch pn10SegmentedController.selectedSegmentIndex
+        {
+        case 0:
+            pronoun = "M"
+        case 1:
+            pronoun = "F"
+        case 2:
+            pronoun = "N/A"
+        default:
+            print("Error")
+        }
     }
     
     @IBAction func playButton(_ sender: UIButton) {
