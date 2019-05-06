@@ -12,43 +12,6 @@ class SecondViewController: UIViewController {
     
     var storyWriter = StoryWriter()
     
-    // possessive pronouns his/hers/theirs
-    var pp1 = ""
-    var pp2 = ""
-    var pp3 = ""
-    var pp4 = ""
-    var pp5 = ""
-    var pp6 = ""
-    var pp7 = ""
-    var pp8 = ""
-    var pp9 = ""
-    var pp10 = ""
-    
-    // reflexive pronouns himself/herself/themselves
-    var rp1 = ""
-    var rp2 = ""
-    var rp3 = ""
-    var rp4 = ""
-    var rp5 = ""
-    var rp6 = ""
-    var rp7 = ""
-    var rp8 = ""
-    var rp9 = ""
-    var rp10 = ""
-   
-    
-    // nomnative pronouns he/she/they
-    var np1 = ""
-    var np2 = ""
-    var np3 = ""
-    var np4 = ""
-    var np5 = ""
-    var np6 = ""
-    var np7 = ""
-    var np8 = ""
-    var np9 = ""
-    var np10 = ""
-   
     
     @IBOutlet weak var nameLable: UILabel!
     @IBOutlet weak var genderLabel: UILabel!
@@ -102,17 +65,17 @@ class SecondViewController: UIViewController {
         switch pn1SegmentedController.selectedSegmentIndex
         {
         case 0:
-            pp1 = "his"
-            rp1 = "himself"
-            np1 = "he"
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
         case 1:
-            pp1 = "hers"
-            rp1 = "herself"
-            np1 = "she"
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
         case 2:
-            pp1 = "theirs"
-            rp1 = "themselves"
-            np1 = "them"
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
         default:
             print("Error")
         }
@@ -121,17 +84,17 @@ class SecondViewController: UIViewController {
         switch pn2SegmentedController.selectedSegmentIndex
         {
         case 0:
-            pp2 = "his"
-            rp2 = "himself"
-            np2 = "he"
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
         case 1:
-            pp2 = "hers"
-            rp2 = "herself"
-            np2 = "she"
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
         case 2:
-            pp2 = "theirs"
-            rp2 = "themselves"
-            np2 = "them"
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
         default:
             print("Error")
         }
@@ -139,18 +102,18 @@ class SecondViewController: UIViewController {
     @IBAction func pn3SegmentedController(_ sender: UISegmentedControl) {
         switch pn3SegmentedController.selectedSegmentIndex
         {
-        case 0:
-            pp3 = "his"
-            rp3 = "himself"
-            np3 = "he"
+            case 0:
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
         case 1:
-            pp3 = "hers"
-            rp3 = "herself"
-            np3 = "she"
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
         case 2:
-            pp3 = "theirs"
-            rp3 = "themselves"
-            np3 = "them"
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
         default:
             print("Error")
         }
@@ -159,17 +122,17 @@ class SecondViewController: UIViewController {
         switch pn4SegmentedController.selectedSegmentIndex
         {
         case 0:
-            pp4 = "his"
-            rp4 = "himself"
-            np4 = "he"
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
         case 1:
-            pp4 = "hers"
-            rp4 = "herself"
-            np4 = "she"
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
         case 2:
-            pp4 = "theirs"
-            rp4 = "themselves"
-            np4 = "them"
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
         default:
             print("Error")
         }
@@ -178,17 +141,17 @@ class SecondViewController: UIViewController {
         switch pn5SegmentedController.selectedSegmentIndex
         {
         case 0:
-            pp5 = "his"
-            rp5 = "himself"
-            np5 = "he"
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
         case 1:
-            pp5 = "hers"
-            rp5 = "herself"
-            np5 = "she"
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
         case 2:
-            pp5 = "theirs"
-            rp5 = "themselves"
-            np5 = "them"
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
         default:
             print("Error")
         }
@@ -197,17 +160,17 @@ class SecondViewController: UIViewController {
         switch pn6SegmenetedController.selectedSegmentIndex
         {
         case 0:
-            pp6 = "his"
-            rp6 = "himself"
-            np6 = "he"
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
         case 1:
-            pp6 = "hers"
-            rp6 = "herself"
-            np6 = "she"
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
         case 2:
-            pp6 = "theirs"
-            rp6 = "themselves"
-            np6 = "them"
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
         default:
             print("Error")
         }
@@ -217,17 +180,17 @@ class SecondViewController: UIViewController {
         switch pn7SegmentedController.selectedSegmentIndex
         {
         case 0:
-            pp7 = "his"
-            rp7 = "himself"
-            np7 = "he"
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
         case 1:
-            pp7 = "hers"
-            rp7 = "herself"
-            np7 = "she"
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
         case 2:
-            pp7 = "theirs"
-            rp7 = "themselves"
-            np7 = "them"
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
         default:
             print("Error")
         }
@@ -237,17 +200,17 @@ class SecondViewController: UIViewController {
         switch pn8SegmentedController.selectedSegmentIndex
         {
         case 0:
-            pp8 = "his"
-            rp8 = "himself"
-            np8 = "he"
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
         case 1:
-            pp8 = "hers"
-            rp8 = "herself"
-            np8 = "she"
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
         case 2:
-            pp8 = "theirs"
-            rp8 = "themselves"
-            np8 = "them"
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
         default:
             print("Error")
         }
@@ -257,17 +220,17 @@ class SecondViewController: UIViewController {
         switch pn9SegmentedController.selectedSegmentIndex
         {
         case 0:
-            pp9 = "his"
-            rp9 = "himself"
-            np9 = "he"
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
         case 1:
-            pp9 = "hers"
-            rp9 = "herself"
-            np9 = "she"
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
         case 2:
-            pp9 = "theirs"
-            rp9 = "themselves"
-            np9 = "them"
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
         default:
             print("Error")
         }
@@ -277,17 +240,17 @@ class SecondViewController: UIViewController {
         switch pn10SegmentedController.selectedSegmentIndex
         {
         case 0:
-            pp10 = "his"
-            rp10 = "himself"
-            np10 = "he"
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
         case 1:
-            pp10 = "hers"
-            rp10 = "herself"
-            np10 = "she"
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
         case 2:
-            pp10 = "theirs"
-            rp10 = "themselves"
-            np10 = "them"
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
         default:
             print("Error")
         }
