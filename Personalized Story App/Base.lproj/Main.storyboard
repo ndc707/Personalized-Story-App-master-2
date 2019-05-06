@@ -186,9 +186,6 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="pn1SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="R33-Fi-DtA"/>
-                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="LW0-dk-LEH">
                                 <rect key="frame" x="210" y="164" width="121" height="29"/>
@@ -199,9 +196,6 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="pn2SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="tfH-ee-lMU"/>
-                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xaE-43-O4B">
                                 <rect key="frame" x="210" y="216" width="121" height="29"/>
@@ -222,9 +216,6 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="pn4SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="xXf-DA-jo5"/>
-                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="djP-hx-Fuo">
                                 <rect key="frame" x="210" y="320" width="121" height="29"/>
@@ -235,9 +226,6 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="pn5SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="WIx-Dg-tHI"/>
-                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5AD-ZG-8rD">
                                 <rect key="frame" x="210" y="369" width="121" height="29"/>
@@ -248,9 +236,6 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="pn6SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="brW-0w-oU6"/>
-                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="W7u-6b-3Yi">
                                 <rect key="frame" x="210" y="420" width="121" height="29"/>
@@ -261,10 +246,6 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="pn6SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="ZHg-6I-fAk"/>
-                                    <action selector="pn7SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="i7W-Sv-4pB"/>
-                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="neq-lw-ZIp">
                                 <rect key="frame" x="210" y="473" width="121" height="29"/>
@@ -275,9 +256,6 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="pn8SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="zdc-le-RIg"/>
-                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tPE-LW-bEM">
                                 <rect key="frame" x="210" y="526" width="121" height="29"/>
@@ -288,9 +266,6 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="pn9SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="dz9-li-jlt"/>
-                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yJ6-sU-kG4">
                                 <rect key="frame" x="210" y="583" width="121" height="29"/>
@@ -301,9 +276,6 @@
                                     <segment title="N/A"/>
                                 </segments>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="pn10SegmentedController:" destination="QLj-FW-FnK" eventType="valueChanged" id="OV1-T5-4fQ"/>
-                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lo5-97-Lwq">
                                 <rect key="frame" x="70" y="83" width="44" height="22"/>
@@ -348,6 +320,7 @@
                         <outlet property="nameTenTextField" destination="HoF-iY-cal" id="T4b-3t-zqO"/>
                         <outlet property="nameThreeTextField" destination="mmy-It-chg" id="ANO-eW-QfN"/>
                         <outlet property="nameTwoTextField" destination="OUf-bm-LA2" id="3V5-ui-6bw"/>
+                        <outlet property="pn10SegmentedController" destination="yJ6-sU-kG4" id="l9t-aH-Y6f"/>
                         <outlet property="pn1SegmentedController" destination="EnD-Lk-Iab" id="bCt-9h-Cc7"/>
                         <outlet property="pn2SegmentedController" destination="LW0-dk-LEH" id="zt2-EO-q0G"/>
                         <outlet property="pn3SegmentedController" destination="xaE-43-O4B" id="qVB-Kw-aOY"/>

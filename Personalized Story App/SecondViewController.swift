@@ -34,7 +34,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var pn6SegmenetedController: UISegmentedControl!
     @IBOutlet weak var pn7SegmentedController: UISegmentedControl!
     @IBOutlet weak var pn8SegmentedController: UISegmentedControl!
-    @IBOutlet weak var pn9SegmentedController: UISegmentedControl!
+    @IBOutlet weak var pn9SegmentedController: UISegmentedControl!   
     @IBOutlet weak var pn10SegmentedController: UISegmentedControl!
     
     
@@ -61,206 +61,167 @@ class SecondViewController: UIViewController {
         
     }
     
-    @IBAction func pn1SegmentedController(_ sender: UISegmentedControl) {
-        switch pn1SegmentedController.selectedSegmentIndex
-        {
-        case 0:
-            storyWriter.pp.append("his")
-            storyWriter.rp.append("himself")
-            storyWriter.np.append("he")
-        case 1:
-            storyWriter.pp.append("hers")
-            storyWriter.rp.append("herself")
-            storyWriter.np.append("she")
-        case 2:
-            storyWriter.pp.append("theirs")
-            storyWriter.rp.append("themselves")
-            storyWriter.np.append("them")
-        default:
-            print("Error")
-        }
-    }
-    @IBAction func pn2SegmentedController(_ sender: UISegmentedControl) {
-        switch pn2SegmentedController.selectedSegmentIndex
-        {
-        case 0:
-            storyWriter.pp.append("his")
-            storyWriter.rp.append("himself")
-            storyWriter.np.append("he")
-        case 1:
-            storyWriter.pp.append("hers")
-            storyWriter.rp.append("herself")
-            storyWriter.np.append("she")
-        case 2:
-            storyWriter.pp.append("theirs")
-            storyWriter.rp.append("themselves")
-            storyWriter.np.append("them")
-        default:
-            print("Error")
-        }
-    }
-    @IBAction func pn3SegmentedController(_ sender: UISegmentedControl) {
-        switch pn3SegmentedController.selectedSegmentIndex
-        {
-            case 0:
-            storyWriter.pp.append("his")
-            storyWriter.rp.append("himself")
-            storyWriter.np.append("he")
-        case 1:
-            storyWriter.pp.append("hers")
-            storyWriter.rp.append("herself")
-            storyWriter.np.append("she")
-        case 2:
-            storyWriter.pp.append("theirs")
-            storyWriter.rp.append("themselves")
-            storyWriter.np.append("them")
-        default:
-            print("Error")
-        }
-    }
-    @IBAction func pn4SegmentedController(_ sender: UISegmentedControl) {
-        switch pn4SegmentedController.selectedSegmentIndex
-        {
-        case 0:
-            storyWriter.pp.append("his")
-            storyWriter.rp.append("himself")
-            storyWriter.np.append("he")
-        case 1:
-            storyWriter.pp.append("hers")
-            storyWriter.rp.append("herself")
-            storyWriter.np.append("she")
-        case 2:
-            storyWriter.pp.append("theirs")
-            storyWriter.rp.append("themselves")
-            storyWriter.np.append("them")
-        default:
-            print("Error")
-        }
-    }
-    @IBAction func pn5SegmentedController(_ sender: UISegmentedControl) {
-        switch pn5SegmentedController.selectedSegmentIndex
-        {
-        case 0:
-            storyWriter.pp.append("his")
-            storyWriter.rp.append("himself")
-            storyWriter.np.append("he")
-        case 1:
-            storyWriter.pp.append("hers")
-            storyWriter.rp.append("herself")
-            storyWriter.np.append("she")
-        case 2:
-            storyWriter.pp.append("theirs")
-            storyWriter.rp.append("themselves")
-            storyWriter.np.append("them")
-        default:
-            print("Error")
-        }
-    }
-    @IBAction func pn6SegmentedController(_ sender: UISegmentedControl) {
-        switch pn6SegmenetedController.selectedSegmentIndex
-        {
-        case 0:
-            storyWriter.pp.append("his")
-            storyWriter.rp.append("himself")
-            storyWriter.np.append("he")
-        case 1:
-            storyWriter.pp.append("hers")
-            storyWriter.rp.append("herself")
-            storyWriter.np.append("she")
-        case 2:
-            storyWriter.pp.append("theirs")
-            storyWriter.rp.append("themselves")
-            storyWriter.np.append("them")
-        default:
-            print("Error")
-        }
-    }
-    
-    @IBAction func pn7SegmentedController(_ sender: UISegmentedControl) {
-        switch pn7SegmentedController.selectedSegmentIndex
-        {
-        case 0:
-            storyWriter.pp.append("his")
-            storyWriter.rp.append("himself")
-            storyWriter.np.append("he")
-        case 1:
-            storyWriter.pp.append("hers")
-            storyWriter.rp.append("herself")
-            storyWriter.np.append("she")
-        case 2:
-            storyWriter.pp.append("theirs")
-            storyWriter.rp.append("themselves")
-            storyWriter.np.append("them")
-        default:
-            print("Error")
-        }
-    }
-    
-    @IBAction func pn8SegmentedController(_ sender: UISegmentedControl) {
-        switch pn8SegmentedController.selectedSegmentIndex
-        {
-        case 0:
-            storyWriter.pp.append("his")
-            storyWriter.rp.append("himself")
-            storyWriter.np.append("he")
-        case 1:
-            storyWriter.pp.append("hers")
-            storyWriter.rp.append("herself")
-            storyWriter.np.append("she")
-        case 2:
-            storyWriter.pp.append("theirs")
-            storyWriter.rp.append("themselves")
-            storyWriter.np.append("them")
-        default:
-            print("Error")
-        }
-    }
-    
-    @IBAction func pn9SegmentedController(_ sender: UISegmentedControl) {
-        switch pn9SegmentedController.selectedSegmentIndex
-        {
-        case 0:
-            storyWriter.pp.append("his")
-            storyWriter.rp.append("himself")
-            storyWriter.np.append("he")
-        case 1:
-            storyWriter.pp.append("hers")
-            storyWriter.rp.append("herself")
-            storyWriter.np.append("she")
-        case 2:
-            storyWriter.pp.append("theirs")
-            storyWriter.rp.append("themselves")
-            storyWriter.np.append("them")
-        default:
-            print("Error")
-        }
-    }
-    
-    @IBAction func pn10SegmentedController(_ sender: UISegmentedControl) {
-        switch pn10SegmentedController.selectedSegmentIndex
-        {
-        case 0:
-            storyWriter.pp.append("his")
-            storyWriter.rp.append("himself")
-            storyWriter.np.append("he")
-        case 1:
-            storyWriter.pp.append("hers")
-            storyWriter.rp.append("herself")
-            storyWriter.np.append("she")
-        case 2:
-            storyWriter.pp.append("theirs")
-            storyWriter.rp.append("themselves")
-            storyWriter.np.append("them")
-        default:
-            print("Error")
-        }
-    }
-    
     @IBAction func playButton(_ sender: UIButton) {
+        switch pn1SegmentedController.selectedSegmentIndex {
+        case 0:
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
+        case 1:
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
+        case 2:
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
+        default:
+            print("Error")
+        }
+        switch pn2SegmentedController.selectedSegmentIndex {
+        case 0:
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
+        case 1:
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
+        case 2:
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
+        default:
+            print("Error")
+        }
+        
+        switch pn3SegmentedController.selectedSegmentIndex {
+        case 0:
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
+        case 1:
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
+        case 2:
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
+        default:
+            print("Error")
+        }
+        switch pn4SegmentedController.selectedSegmentIndex {
+        case 0:
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
+        case 1:
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
+        case 2:
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
+        default:
+            print("Error")
+        }
+        switch pn5SegmentedController.selectedSegmentIndex {
+        case 0:
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
+        case 1:
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
+        case 2:
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
+        default:
+            print("Error")
+        }
+        switch pn6SegmenetedController.selectedSegmentIndex {
+        case 0:
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
+        case 1:
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
+        case 2:
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
+        default:
+            print("Error")
+        }
+        switch pn7SegmentedController.selectedSegmentIndex {
+        case 0:
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
+        case 1:
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
+        case 2:
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
+        default:
+            print("Error")
+        }
+        switch pn8SegmentedController.selectedSegmentIndex {
+        case 0:
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
+        case 1:
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
+        case 2:
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
+        default:
+            print("Error")
+        }
+        switch pn9SegmentedController.selectedSegmentIndex {
+        case 0:
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
+        case 1:
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
+        case 2:
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
+        default:
+            print("Error")
+        }
+        switch pn10SegmentedController.selectedSegmentIndex {
+        case 0:
+            storyWriter.pp.append("his")
+            storyWriter.rp.append("himself")
+            storyWriter.np.append("he")
+        case 1:
+            storyWriter.pp.append("hers")
+            storyWriter.rp.append("herself")
+            storyWriter.np.append("she")
+        case 2:
+            storyWriter.pp.append("theirs")
+            storyWriter.rp.append("themselves")
+            storyWriter.np.append("them")
+        default:
+            print("Error")
+        }
     }
-    
-    
-    
-    
-    
 }
