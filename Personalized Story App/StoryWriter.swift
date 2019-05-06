@@ -21,6 +21,13 @@ class StoryWriter {
     var nameNine = ""
     var nameTen = ""
     
+    var pp = [String]()
+    var rp = [String]()
+    var np = [String]()
+    
+    
+    
+    
     
     func writeStory() -> String {
         return "\(nameOne), \(nameTwo), \(nameThree), \(nameFour), \(nameFive), \(nameSix), \(nameSeven), \(nameEight), \(nameNine), \(nameTen)"
