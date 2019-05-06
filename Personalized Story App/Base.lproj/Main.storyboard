@@ -20,8 +20,8 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="[insert creative name here]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IsM-Kh-K3k">
                                 <rect key="frame" x="36" y="83" width="302" height="33"/>
-                                <color key="backgroundColor" red="0.52694684799616087" green="0.90685995852386592" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="26"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HorrorButton" translatesAutoresizingMaskIntoConstraints="NO" id="eXZ-Ho-ClN">
@@ -58,16 +58,16 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJf-F7-5ot">
                                 <rect key="frame" x="67" y="477" width="240" height="128"/>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="23"/>
                                 <state key="normal" title="Story 3">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="QLj-FW-FnK" kind="show" id="mH0-2g-bjO"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.52694684800000002" green="0.90685995850000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1hq-WZ-tOb" firstAttribute="trailing" secondItem="RJf-F7-5ot" secondAttribute="trailing" id="5Uh-8J-Trz"/>
                             <constraint firstItem="RG1-iv-BGJ" firstAttribute="bottom" secondItem="RJf-F7-5ot" secondAttribute="bottom" constant="62" id="8JU-PO-n26"/>
@@ -278,25 +278,25 @@
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lo5-97-Lwq">
-                                <rect key="frame" x="70" y="83" width="44" height="22"/>
+                                <rect key="frame" x="70" y="83" width="44" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcJ-Ii-dNF">
-                                <rect key="frame" x="242" y="83" width="54" height="22"/>
+                                <rect key="frame" x="242" y="83" width="56" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dol-bY-cSg">
-                                <rect key="frame" x="163" y="626" width="58" height="42"/>
+                                <rect key="frame" x="165" y="627" width="54" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="24"/>
                                 <state key="normal" title="Play!">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="playButton:" destination="QLj-FW-FnK" eventType="touchUpInside" id="hff-7T-5mf"/>
@@ -304,7 +304,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.52694684800000002" green="0.90685995850000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="fds-jI-Hmd"/>
                     </view>
                     <connections>
@@ -350,23 +350,25 @@
                                     <constraint firstAttribute="width" constant="319" id="EjO-zm-ZUX"/>
                                     <constraint firstAttribute="height" constant="231" id="efj-Zs-fqb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAd-20-hEM">
-                                <rect key="frame" x="149" y="509" width="60" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAd-20-hEM">
+                                <rect key="frame" x="155" y="600" width="65" height="47"/>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="30"/>
                                 <state key="normal" title="Next">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="nextButton:" destination="zR2-0p-fPi" eventType="touchUpInside" id="IZD-ug-w5C"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.19597278800000001" green="0.94080414980000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="wAd-20-hEM" secondAttribute="bottom" constant="20" symbolic="YES" id="IyE-QR-sXC"/>
+                            <constraint firstItem="wAd-20-hEM" firstAttribute="centerX" secondItem="l6h-3g-pCp" secondAttribute="centerX" id="eRU-QJ-nDV"/>
                             <constraint firstItem="l6h-3g-pCp" firstAttribute="centerX" secondItem="bBO-Nr-qug" secondAttribute="centerX" id="gkk-Zt-Zf3"/>
                             <constraint firstItem="l6h-3g-pCp" firstAttribute="centerY" secondItem="bBO-Nr-qug" secondAttribute="centerY" id="gzD-l1-RCg"/>
                         </constraints>
