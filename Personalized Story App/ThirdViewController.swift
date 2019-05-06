@@ -11,6 +11,10 @@ import UIKit
 class ThirdViewController: UIViewController {
     
     var storyWriter = StoryWriter()
+
+    @IBAction func nextButton(_ sender: UIButton) {
+        
+    }
     
     @IBOutlet weak var storyLabel: UILabel!
     
@@ -18,4 +22,6 @@ class ThirdViewController: UIViewController {
         super.viewDidLoad()
         storyLabel.text = storyWriter.writeStory()
     }
+    
+    
 }
