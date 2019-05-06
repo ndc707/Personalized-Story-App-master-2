@@ -27,10 +27,10 @@ class StoryWriter {
     
     
     
-    
+
     
     func writeStory() -> String {
-        return "\(nameOne), \(nameTwo), \(nameThree), \(nameFour), \(nameFive), \(nameSix), \(nameSeven), \(nameEight), \(nameNine), \(nameTen)"
+        return "\(nameOne), \(nameTwo), \(nameThree), \(nameFour), \(nameFive), \(nameSix), \(nameSeven), \(nameEight), \(nameNine), \(nameTen) \(pp) \(rp) \(np)"
     }
     
 }
