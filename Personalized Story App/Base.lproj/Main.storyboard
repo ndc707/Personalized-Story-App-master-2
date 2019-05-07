@@ -344,16 +344,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6h-3g-pCp">
-                                <rect key="frame" x="28" y="218" width="319" height="231"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="319" id="EjO-zm-ZUX"/>
-                                    <constraint firstAttribute="height" constant="231" id="efj-Zs-fqb"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="23"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAd-20-hEM">
                                 <rect key="frame" x="155" y="600" width="65" height="47"/>
                                 <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="30"/>
@@ -364,13 +354,23 @@
                                     <action selector="nextButton:" destination="zR2-0p-fPi" eventType="touchUpInside" id="IZD-ug-w5C"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6h-3g-pCp">
+                                <rect key="frame" x="28" y="64" width="319" height="503"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="319" id="EjO-zm-ZUX"/>
+                                    <constraint firstAttribute="height" constant="503" id="efj-Zs-fqb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="wAd-20-hEM" secondAttribute="bottom" constant="20" symbolic="YES" id="IyE-QR-sXC"/>
                             <constraint firstItem="wAd-20-hEM" firstAttribute="centerX" secondItem="l6h-3g-pCp" secondAttribute="centerX" id="eRU-QJ-nDV"/>
                             <constraint firstItem="l6h-3g-pCp" firstAttribute="centerX" secondItem="bBO-Nr-qug" secondAttribute="centerX" id="gkk-Zt-Zf3"/>
-                            <constraint firstItem="l6h-3g-pCp" firstAttribute="centerY" secondItem="bBO-Nr-qug" secondAttribute="centerY" id="gzD-l1-RCg"/>
+                            <constraint firstItem="l6h-3g-pCp" firstAttribute="centerY" secondItem="bBO-Nr-qug" secondAttribute="centerY" constant="-18" id="gzD-l1-RCg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BSR-A5-wy5"/>
                     </view>
