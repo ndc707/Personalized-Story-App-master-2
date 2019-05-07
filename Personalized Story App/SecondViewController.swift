@@ -67,14 +67,17 @@ class SecondViewController: UIViewController {
             storyWriter.pp.append("his")
             storyWriter.rp.append("himself")
             storyWriter.np.append("he")
+            storyWriter.thrdpp.append("him")
         case 1:
-            storyWriter.pp.append("hers")
+            storyWriter.pp.append("her")
             storyWriter.rp.append("herself")
             storyWriter.np.append("she")
+            storyWriter.thrdpp.append("her")
         case 2:
-            storyWriter.pp.append("theirs")
+            storyWriter.pp.append("their")
             storyWriter.rp.append("themselves")
             storyWriter.np.append("them")
+            storyWriter.thrdpp.append("their")
         default:
             print("Error")
         }
@@ -83,14 +86,17 @@ class SecondViewController: UIViewController {
             storyWriter.pp.append("his")
             storyWriter.rp.append("himself")
             storyWriter.np.append("he")
+            storyWriter.thrdpp.append("him")
         case 1:
-            storyWriter.pp.append("hers")
+            storyWriter.pp.append("her")
             storyWriter.rp.append("herself")
             storyWriter.np.append("she")
+            storyWriter.thrdpp.append("her")
         case 2:
-            storyWriter.pp.append("theirs")
+            storyWriter.pp.append("their")
             storyWriter.rp.append("themselves")
             storyWriter.np.append("them")
+            storyWriter.thrdpp.append("their")
         default:
             print("Error")
         }
@@ -100,14 +106,17 @@ class SecondViewController: UIViewController {
             storyWriter.pp.append("his")
             storyWriter.rp.append("himself")
             storyWriter.np.append("he")
+            storyWriter.thrdpp.append("him")
         case 1:
-            storyWriter.pp.append("hers")
+            storyWriter.pp.append("her")
             storyWriter.rp.append("herself")
             storyWriter.np.append("she")
+            storyWriter.thrdpp.append("her")
         case 2:
-            storyWriter.pp.append("theirs")
+            storyWriter.pp.append("their")
             storyWriter.rp.append("themselves")
             storyWriter.np.append("them")
+            storyWriter.thrdpp.append("their")
         default:
             print("Error")
         }
@@ -116,14 +125,17 @@ class SecondViewController: UIViewController {
             storyWriter.pp.append("his")
             storyWriter.rp.append("himself")
             storyWriter.np.append("he")
+            storyWriter.thrdpp.append("him")
         case 1:
-            storyWriter.pp.append("hers")
+            storyWriter.pp.append("her")
             storyWriter.rp.append("herself")
             storyWriter.np.append("she")
+            storyWriter.thrdpp.append("her")
         case 2:
-            storyWriter.pp.append("theirs")
+            storyWriter.pp.append("their")
             storyWriter.rp.append("themselves")
             storyWriter.np.append("them")
+            storyWriter.thrdpp.append("their")
         default:
             print("Error")
         }
@@ -132,14 +144,17 @@ class SecondViewController: UIViewController {
             storyWriter.pp.append("his")
             storyWriter.rp.append("himself")
             storyWriter.np.append("he")
+            storyWriter.thrdpp.append("him")
         case 1:
-            storyWriter.pp.append("hers")
+            storyWriter.pp.append("her")
             storyWriter.rp.append("herself")
             storyWriter.np.append("she")
+            storyWriter.thrdpp.append("her")
         case 2:
-            storyWriter.pp.append("theirs")
+            storyWriter.pp.append("their")
             storyWriter.rp.append("themselves")
             storyWriter.np.append("them")
+            storyWriter.thrdpp.append("their")
         default:
             print("Error")
         }
@@ -148,14 +163,17 @@ class SecondViewController: UIViewController {
             storyWriter.pp.append("his")
             storyWriter.rp.append("himself")
             storyWriter.np.append("he")
+            storyWriter.thrdpp.append("him")
         case 1:
-            storyWriter.pp.append("hers")
+            storyWriter.pp.append("her")
             storyWriter.rp.append("herself")
             storyWriter.np.append("she")
+            storyWriter.thrdpp.append("her")
         case 2:
-            storyWriter.pp.append("theirs")
+            storyWriter.pp.append("their")
             storyWriter.rp.append("themselves")
             storyWriter.np.append("them")
+            storyWriter.thrdpp.append("their")
         default:
             print("Error")
         }
@@ -164,14 +182,17 @@ class SecondViewController: UIViewController {
             storyWriter.pp.append("his")
             storyWriter.rp.append("himself")
             storyWriter.np.append("he")
+            storyWriter.thrdpp.append("him")
         case 1:
-            storyWriter.pp.append("hers")
+            storyWriter.pp.append("her")
             storyWriter.rp.append("herself")
             storyWriter.np.append("she")
+            storyWriter.thrdpp.append("her")
         case 2:
-            storyWriter.pp.append("theirs")
+            storyWriter.pp.append("their")
             storyWriter.rp.append("themselves")
             storyWriter.np.append("them")
+            storyWriter.thrdpp.append("their")
         default:
             print("Error")
         }
@@ -180,14 +201,17 @@ class SecondViewController: UIViewController {
             storyWriter.pp.append("his")
             storyWriter.rp.append("himself")
             storyWriter.np.append("he")
+            storyWriter.thrdpp.append("him")
         case 1:
-            storyWriter.pp.append("hers")
+            storyWriter.pp.append("her")
             storyWriter.rp.append("herself")
             storyWriter.np.append("she")
+            storyWriter.thrdpp.append("her")
         case 2:
-            storyWriter.pp.append("theirs")
+            storyWriter.pp.append("their")
             storyWriter.rp.append("themselves")
             storyWriter.np.append("them")
+            storyWriter.thrdpp.append("their")
         default:
             print("Error")
         }
@@ -196,14 +220,17 @@ class SecondViewController: UIViewController {
             storyWriter.pp.append("his")
             storyWriter.rp.append("himself")
             storyWriter.np.append("he")
+            storyWriter.thrdpp.append("him")
         case 1:
-            storyWriter.pp.append("hers")
+            storyWriter.pp.append("her")
             storyWriter.rp.append("herself")
             storyWriter.np.append("she")
+            storyWriter.thrdpp.append("her")
         case 2:
-            storyWriter.pp.append("theirs")
+            storyWriter.pp.append("their")
             storyWriter.rp.append("themselves")
             storyWriter.np.append("them")
+            storyWriter.thrdpp.append("their")
         default:
             print("Error")
         }
@@ -212,14 +239,17 @@ class SecondViewController: UIViewController {
             storyWriter.pp.append("his")
             storyWriter.rp.append("himself")
             storyWriter.np.append("he")
+            storyWriter.thrdpp.append("him")
         case 1:
-            storyWriter.pp.append("hers")
+            storyWriter.pp.append("her")
             storyWriter.rp.append("herself")
             storyWriter.np.append("she")
+            storyWriter.thrdpp.append("her")
         case 2:
-            storyWriter.pp.append("theirs")
+            storyWriter.pp.append("their")
             storyWriter.rp.append("themselves")
             storyWriter.np.append("them")
+            storyWriter.thrdpp.append("their")
         default:
             print("Error")
         }
