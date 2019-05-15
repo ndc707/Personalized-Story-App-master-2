@@ -87,8 +87,8 @@ class SecondViewController: UIViewController {
             default:
                 storyWriter.pp.append("their")
                 storyWriter.rp.append("themselves")
-                storyWriter.np.append("them")
-                storyWriter.thrdpp.append("their")
+                storyWriter.np.append("they")
+                storyWriter.thrdpp.append("them")
             }
         }
     }

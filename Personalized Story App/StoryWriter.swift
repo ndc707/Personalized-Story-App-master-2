@@ -31,13 +31,14 @@ class StoryWriter {
     
     //  STORY ONE
     func writeStory10() -> String {
-        return "\(nameOne) woke up to darkness. Complete and utter darkness. \(pp[0]) head was pounding. With great pain, \(np[0]) twisted \(pp[0]) head to the left. Next to \(thrdpp[0]) was \(pp[0]) best friend \(nameTwo). Thankful for a familliar face in what seemed like endless darkness \(nameOne) tried to wake \(nameTwo). \(pp[1]) head rolled limply to the side. \(nameTwo) was dead."
+        return "\(nameOne) woke up to darkness. Complete and utter darkness. \(pp[0]) head was pounding. With great pain, \(np[0]) twisted \(pp[0]) head to the left. Next to \(thrdpp[0]) was \(pp[0]) best friend \(nameTwo). Thankful for a familiar face in what seemed like endless darkness \(nameOne) tried to wake \(nameTwo). \(pp[1]) head rolled limply to the side. \(nameTwo) was dead."
     }
     func writeStory11() -> String {
-        return "This is story 1.1"
+        return "On one very unusual night, 10 people found themselves up in a house isolated deep in the woods with no memory of their pasts or how they got there. \(nameThree) woke up first in a dimly lit room. \(np[2]) looked around and saw 7 other people still lying on the ground, unconscious. There were two large doors, one to \(pp[2]) right and one to \(pp[2]) left. Being that \(nameThree) was still a bit out of it from being knocked out on the floor, \(np[2]) decided to ignore the unconscious people and walk towards the right door. Right is right, after all... right?” \(np[2])  thought. As soon as \(np[2]) stepped through the door \(pp[2]) scream echoed through the empty corridor"
+
     }
     func writeStory12() -> String {
-        return "This is story 1.2"
+        return "\(nameFour) saw \(nameThree) running towards the door. But it was too late to even try and help, as the corridor suddenly constricted, and all that was left of \(nameThree) was a smear of blood left on the walls. \(nameFour) stared, speechless, at the blood pool that used to be \(nameThree) before the door slammed shut. “This isn’t good,” \(np[3]) thought. \(nameFour) saw the strangers lying on the ground and decided to wake them up before doing anything."
     }
     func writeStory13() -> String {
         return "This is story 1.3"

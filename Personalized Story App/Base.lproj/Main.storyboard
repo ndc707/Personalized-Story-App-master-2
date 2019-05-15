@@ -366,7 +366,7 @@
                                     <constraint firstAttribute="width" constant="319" id="EjO-zm-ZUX"/>
                                     <constraint firstAttribute="height" constant="503" id="efj-Zs-fqb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
