@@ -43,6 +43,7 @@
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="horrorButtonTapped:" destination="xNR-SN-l14" eventType="touchUpInside" id="ydY-mV-sXv"/>
                                     <segue destination="QLj-FW-FnK" kind="show" id="suM-Xp-P8I"/>
                                 </connections>
                             </button>
@@ -53,6 +54,7 @@
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="apocalypseButtonTapped:" destination="xNR-SN-l14" eventType="touchUpInside" id="8in-zo-7D4"/>
                                     <segue destination="QLj-FW-FnK" kind="show" id="Gud-vH-XR3"/>
                                 </connections>
                             </button>
@@ -94,6 +96,10 @@
                         <viewLayoutGuide key="safeArea" id="RG1-iv-BGJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="kCh-fg-Poq"/>
+                    <connections>
+                        <outlet property="apocalypseButton" destination="1hq-WZ-tOb" id="Rz3-SV-HzW"/>
+                        <outlet property="horrorButton" destination="WhK-On-Xa3" id="IEe-yZ-3z5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="168-GO-7qC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
