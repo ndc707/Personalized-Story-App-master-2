@@ -36,6 +36,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var pn8SegmentedController: UISegmentedControl!
     @IBOutlet weak var pn9SegmentedController: UISegmentedControl!   
     @IBOutlet weak var pn10SegmentedController: UISegmentedControl!
+    
     var segmentedControllersArray = [UISegmentedControl]()
     
     
@@ -51,6 +52,13 @@ class SecondViewController: UIViewController {
         segmentedControllersArray.append(pn8SegmentedController)
         segmentedControllersArray.append(pn9SegmentedController)
         segmentedControllersArray.append(pn10SegmentedController)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        storyWriter.pp.removeAll()
+        storyWriter.rp.removeAll()
+        storyWriter.np.removeAll()
+        storyWriter.thrdpp.removeAll()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

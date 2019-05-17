@@ -41,19 +41,21 @@ class StoryWriter {
         return "\(nameFour) saw \(nameThree) running towards the door. But it was too late to even try and help, as the corridor suddenly constricted, and all that was left of \(nameThree) was a smear of blood left on the walls. \(nameFour) stared, speechless, at the blood pool that used to be \(nameThree) before the door slammed shut. “This isn’t good,” \(np[3]) thought. \(nameFour) saw the strangers lying on the ground and decided to wake them up before doing anything."
     }
     func writeStory13() -> String {
-        return "This is story 1.3"
+        return "As \(nameFour) woke the strangers \(np[3]) heard a distant hum. It was almost like it was calling out to \(thrdpp[3]). \(nameFour) asked the others if they could hear it, but the only replies were blank stares. What do you mean? One of the 6 strangers said warily. \(nameFour) was mesmerized by the distant hum. Yes, it was definitely trying to tell \(thrdpp[3]) something. \(np[3]) walked further into the corridor to the left, hoping to find the source. As \(np[3]) did so, the others followed hoping to find safety as one big group. As soon as everyone started moving through the narrow corridor, spikes sprang from the walls, killing \(nameFive) as well as injuring \(nameSix). The rest ran for their lives."
     }
     func writeStory14() -> String {
-        return "This is story 1.4"
+        return "After having run for what seemed like an eternity, the rest of the group finally caught up with \(nameFour) who stood there, mouth agape. Before \(thrdpp[3]), was a vast, dark forest. They had not even stopped for a minute when a screech startled everyone. It was coming from the darkness behind them. Getting closer and closer. “Run!” shouted \(nameSeven). They all began running, one after another they went deeper into the eerie forest. \(nameSix)'s injuries finally caught up to \(thrdpp[5]) and \(np[5]) collapsed. \(nameSix) tried getting up but it was too late because the screeching thing had caught up. Before \(nameSix) could even make a noise, the massive creature swallowed \(thrdpp[5]) whole."
     }
     func writeStory15() -> String {
-        return "This is story 1.5"
+        
+        return "Horrified, \(nameOne) pushed themselves back across the floor. Away from \(nameTwo)'s lifeless body. \(np[0]) fumbled around in the darkness until \(pp[0]) hand brushed against a doorknob. \(nameOne) quickly opened the door and felt a blast of cool air. \(np[0]) looked out into the night. All around \(thrdpp[0]) was a dense forest, blacker than the night surrounding it. Suddenly, \(np[0]) heard a bone-rattling screech in the distance followed shouting. Maybe \(np[0]) wasn't alone after all! \(nameOne) quickly set out to find the source of the voices."
     }
     func writeStory16() -> String {
-        return "This is story 1.6"
+        return "The rest of the group kept running while the screeching animal followed in pursuit. However fast they were running, the animal seemed to be closing in. \(nameFour) and \(nameEight) split off and decided to go into a more condensed part of the forest. Little did they know what awaited them. \(nameNine) and \(nameTen) kept running until they emerged from the tree line. Before them was a rickety old bridge. The creature's screeches got louder, so they had no choice but to cross. \(nameNine) took the lead going as fast as possible while making sure \(np[8]) didn't fall. \(nameTen) quickly followed, however \(np[9]) wasn't as careful as \(nameNine). \(nameTen) lost \(pp[9]) balance and fell to \(pp[9]) death."
     }
     func writeStory17() -> String {
-        return "This is story 1.7"
+        return "Going back to \(nameFour) and \(nameEight) who decided to go deeper into the forest, they had made a mistake. As they would soon discover, this forest was swarming with other beasts. They could no longer hear screeching and stopped to take a breath until they heard a cry for for help. They ran towards it to discover \(nameOne) surronded by rats as big as canines. \(nameEight), acting upon instinct, drew a pocket knife from \(pp[7]) jacket and flung it at the closest rat. The knife barely scraped it’s skin and landed on the ground. The rat turned around and leaped at \(nameEight). Seeing this, \(nameFour) dashed away. Unfortunately, \(nameEight) and \(nameOne) became dinner."
+
     }
     func writeStory18() -> String {
         return "This is story 1.8"
