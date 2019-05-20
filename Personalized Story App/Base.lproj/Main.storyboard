@@ -107,8 +107,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3td-21-mAz">
-                                <rect key="frame" x="0.0" y="64" width="375" height="592"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="316"/>
                                 <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hGh-hp-x8K">
+                                        <rect key="frame" x="28" y="51" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OUf-bm-LA2">
                                         <rect key="frame" x="28" y="100" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -132,41 +139,6 @@
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 5" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nl1-wc-dbo">
                                         <rect key="frame" x="28" y="250" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 6" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gqu-LO-8UF">
-                                        <rect key="frame" x="28" y="303" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 7" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rqg-jO-aIt">
-                                        <rect key="frame" x="28" y="353" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 8" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bMl-6D-CE1">
-                                        <rect key="frame" x="28" y="403" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 9" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HwX-mA-aEm">
-                                        <rect key="frame" x="28" y="454" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 10" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HoF-iY-cal">
-                                        <rect key="frame" x="28" y="505" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -222,56 +194,6 @@
                                         </segments>
                                         <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </segmentedControl>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="5AD-ZG-8rD">
-                                        <rect key="frame" x="244" y="303" width="121" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <segments>
-                                            <segment title="M"/>
-                                            <segment title="F"/>
-                                            <segment title="N/A"/>
-                                        </segments>
-                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </segmentedControl>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="W7u-6b-3Yi">
-                                        <rect key="frame" x="246" y="353" width="121" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <segments>
-                                            <segment title="M"/>
-                                            <segment title="F"/>
-                                            <segment title="N/A"/>
-                                        </segments>
-                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </segmentedControl>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="neq-lw-ZIp">
-                                        <rect key="frame" x="246" y="403" width="121" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <segments>
-                                            <segment title="M"/>
-                                            <segment title="F"/>
-                                            <segment title="N/A"/>
-                                        </segments>
-                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </segmentedControl>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="tPE-LW-bEM">
-                                        <rect key="frame" x="246" y="454" width="121" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <segments>
-                                            <segment title="M"/>
-                                            <segment title="F"/>
-                                            <segment title="N/A"/>
-                                        </segments>
-                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </segmentedControl>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="yJ6-sU-kG4">
-                                        <rect key="frame" x="246" y="505" width="121" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <segments>
-                                            <segment title="M"/>
-                                            <segment title="F"/>
-                                            <segment title="N/A"/>
-                                        </segments>
-                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lo5-97-Lwq">
                                         <rect key="frame" x="54" y="23" width="44" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -287,65 +209,45 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dol-bY-cSg">
-                                        <rect key="frame" x="160" y="534" width="54" height="40"/>
+                                        <rect key="frame" x="161" y="276" width="52" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="24"/>
-                                        <state key="normal" title="Play!">
+                                        <state key="normal" title="Next">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="playButton:" destination="QLj-FW-FnK" eventType="touchUpInside" id="hff-7T-5mf"/>
-                                            <segue destination="zR2-0p-fPi" kind="show" id="41N-qN-8lc"/>
+                                            <action selector="nextButton:" destination="QLj-FW-FnK" eventType="touchUpInside" id="POc-mk-vdE"/>
+                                            <segue destination="isE-BL-HS0" kind="show" id="uOI-H5-qYB"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hGh-hp-x8K">
-                                        <rect key="frame" x="28" y="51" width="97" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="C4a-pA-n7R"/>
-                                    <constraint firstAttribute="height" constant="592" id="fPC-Gq-RA7"/>
+                                    <constraint firstAttribute="height" constant="316" id="dhP-CT-lcg"/>
+                                    <constraint firstAttribute="width" constant="375" id="nT3-nw-7dB"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="3td-21-mAz" firstAttribute="leading" secondItem="fds-jI-Hmd" secondAttribute="leading" id="79r-n0-dCf"/>
-                            <constraint firstItem="3td-21-mAz" firstAttribute="centerX" secondItem="hnc-fh-vQZ" secondAttribute="centerX" id="Nks-f8-qlC"/>
-                            <constraint firstItem="3td-21-mAz" firstAttribute="trailing" secondItem="fds-jI-Hmd" secondAttribute="trailing" id="abW-df-d6F"/>
-                            <constraint firstItem="3td-21-mAz" firstAttribute="top" secondItem="fds-jI-Hmd" secondAttribute="top" id="qc8-NY-amA"/>
-                            <constraint firstItem="fds-jI-Hmd" firstAttribute="bottom" secondItem="3td-21-mAz" secondAttribute="bottom" constant="11" id="xkP-e8-cLJ"/>
+                            <constraint firstItem="3td-21-mAz" firstAttribute="centerX" secondItem="hnc-fh-vQZ" secondAttribute="centerX" id="Bme-E7-Q7D"/>
+                            <constraint firstItem="3td-21-mAz" firstAttribute="top" secondItem="fds-jI-Hmd" secondAttribute="top" id="xgL-1o-jCT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fds-jI-Hmd"/>
                     </view>
                     <connections>
                         <outlet property="genderLabel" destination="EcJ-Ii-dNF" id="1Zk-8p-1nH"/>
-                        <outlet property="nameEightTextField" destination="bMl-6D-CE1" id="4bD-2F-2O8"/>
                         <outlet property="nameFiveTextField" destination="nl1-wc-dbo" id="I8D-Uf-wNb"/>
                         <outlet property="nameFourTextField" destination="vhe-Vh-GUc" id="qXH-Fh-ec2"/>
                         <outlet property="nameLable" destination="lo5-97-Lwq" id="VwB-lh-H88"/>
-                        <outlet property="nameNineTextField" destination="HwX-mA-aEm" id="vER-nY-E2r"/>
                         <outlet property="nameOneTextField" destination="hGh-hp-x8K" id="xsI-YZ-5ZR"/>
-                        <outlet property="nameSevenTextField" destination="Rqg-jO-aIt" id="Qfj-n4-Yks"/>
-                        <outlet property="nameSixTextField" destination="gqu-LO-8UF" id="g3N-T3-jgZ"/>
-                        <outlet property="nameTenTextField" destination="HoF-iY-cal" id="T4b-3t-zqO"/>
                         <outlet property="nameThreeTextField" destination="mmy-It-chg" id="ANO-eW-QfN"/>
                         <outlet property="nameTwoTextField" destination="OUf-bm-LA2" id="3V5-ui-6bw"/>
-                        <outlet property="pn10SegmentedController" destination="yJ6-sU-kG4" id="l9t-aH-Y6f"/>
                         <outlet property="pn1SegmentedController" destination="EnD-Lk-Iab" id="bCt-9h-Cc7"/>
                         <outlet property="pn2SegmentedController" destination="LW0-dk-LEH" id="zt2-EO-q0G"/>
                         <outlet property="pn3SegmentedController" destination="xaE-43-O4B" id="qVB-Kw-aOY"/>
                         <outlet property="pn4SegmentedController" destination="dIz-4W-k1E" id="jKw-tW-uqW"/>
                         <outlet property="pn5SegmentedController" destination="djP-hx-Fuo" id="kvE-KD-alf"/>
-                        <outlet property="pn6SegmenetedController" destination="5AD-ZG-8rD" id="Jq5-m2-gUY"/>
-                        <outlet property="pn7SegmentedController" destination="W7u-6b-3Yi" id="XCP-yh-bUA"/>
-                        <outlet property="pn8SegmentedController" destination="neq-lw-ZIp" id="cbU-ba-edY"/>
-                        <outlet property="pn9SegmentedController" destination="tPE-LW-bEM" id="zAk-7U-ebY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tht-Wz-jlo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -396,7 +298,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3v-pW-au4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3431" y="199"/>
+            <point key="canvasLocation" x="3646" y="200"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Fw0-hM-HGf">
@@ -415,6 +317,160 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kqu-uS-Ktj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="200.14992503748127"/>
+        </scene>
+        <!--Second Second View Controller-->
+        <scene sceneID="ADJ-mP-YCO">
+            <objects>
+                <viewController id="isE-BL-HS0" customClass="SecondSecondViewController" customModule="Personalized_Story_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hrV-dn-xpK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipl-b9-Q0h">
+                                <rect key="frame" x="0.0" y="64" width="375" height="332"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 6" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Alx-bK-pA4">
+                                        <rect key="frame" x="28" y="51" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 7" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JY8-u1-xDS">
+                                        <rect key="frame" x="28" y="101" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 8" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HgT-LC-g2Y">
+                                        <rect key="frame" x="28" y="151" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 9" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RcF-Eu-h0F">
+                                        <rect key="frame" x="28" y="200" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NAME 10" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EBh-El-taq">
+                                        <rect key="frame" x="28" y="251" width="97" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="bZO-kA-sWB">
+                                        <rect key="frame" x="232" y="53" width="121" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="M"/>
+                                            <segment title="F"/>
+                                            <segment title="N/A"/>
+                                        </segments>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="qwW-YH-BtK">
+                                        <rect key="frame" x="232" y="103" width="121" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="M"/>
+                                            <segment title="F"/>
+                                            <segment title="N/A"/>
+                                        </segments>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="RI7-5y-Xt8">
+                                        <rect key="frame" x="232" y="153" width="121" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="M"/>
+                                            <segment title="F"/>
+                                            <segment title="N/A"/>
+                                        </segments>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="hXZ-8I-nPN">
+                                        <rect key="frame" x="232" y="202" width="121" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="M"/>
+                                            <segment title="F"/>
+                                            <segment title="N/A"/>
+                                        </segments>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="IuM-SW-Th1">
+                                        <rect key="frame" x="232" y="252" width="121" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="M"/>
+                                            <segment title="F"/>
+                                            <segment title="N/A"/>
+                                        </segments>
+                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </segmentedControl>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqG-HH-nXd">
+                                        <rect key="frame" x="54" y="23" width="44" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIu-Nh-ZEs">
+                                        <rect key="frame" x="264" y="23" width="56" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aq5-Qe-R02">
+                                        <rect key="frame" x="165" y="294" width="54" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="24"/>
+                                        <state key="normal" title="Play!">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playButton:" destination="isE-BL-HS0" eventType="touchUpInside" id="dd7-xC-6Am"/>
+                                            <segue destination="zR2-0p-fPi" kind="show" id="SXd-e5-R2X"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="332" id="3Dn-61-Q1Q"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ipl-b9-Q0h" firstAttribute="leading" secondItem="hrV-dn-xpK" secondAttribute="leading" id="285-25-5WE"/>
+                            <constraint firstItem="ipl-b9-Q0h" firstAttribute="top" secondItem="bxH-wG-HHA" secondAttribute="top" id="KhY-PZ-V49"/>
+                            <constraint firstItem="ipl-b9-Q0h" firstAttribute="centerX" secondItem="hrV-dn-xpK" secondAttribute="centerX" id="vQD-Ex-ILw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bxH-wG-HHA"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameEightTextField" destination="HgT-LC-g2Y" id="iFa-uf-uFU"/>
+                        <outlet property="nameNineTextField" destination="RcF-Eu-h0F" id="gFO-Cg-924"/>
+                        <outlet property="nameSevenTextField" destination="JY8-u1-xDS" id="J61-hm-UBr"/>
+                        <outlet property="nameSixTextField" destination="Alx-bK-pA4" id="wzj-DO-MCR"/>
+                        <outlet property="nameTenTextField" destination="EBh-El-taq" id="FgF-wJ-wRw"/>
+                        <outlet property="pn10SegmentedController" destination="IuM-SW-Th1" id="0Xv-T7-ejp"/>
+                        <outlet property="pn6SegmenetedController" destination="bZO-kA-sWB" id="Xsk-Xk-5DI"/>
+                        <outlet property="pn7SegmentedController" destination="qwW-YH-BtK" id="xxm-qy-npg"/>
+                        <outlet property="pn8SegmentedController" destination="RI7-5y-Xt8" id="BLZ-Mq-bF4"/>
+                        <outlet property="pn9SegmentedController" destination="hXZ-8I-nPN" id="cgA-wl-5Bh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jq8-fN-Rsu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2672.8000000000002" y="199.25037481259372"/>
         </scene>
     </scenes>
     <resources>

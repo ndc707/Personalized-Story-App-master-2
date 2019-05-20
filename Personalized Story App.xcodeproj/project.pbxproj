@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3F239D92226F752F003158A0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F239D91226F752F003158A0 /* SecondViewController.swift */; };
 		3F239D94226F7566003158A0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F239D93226F7566003158A0 /* ThirdViewController.swift */; };
+		4D0657312292318E00A3D0B5 /* SecondSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0657302292318E00A3D0B5 /* SecondSecondViewController.swift */; };
 		4D1B88D3225BAEE200A56325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B88D2225BAEE200A56325 /* AppDelegate.swift */; };
 		4D1B88D5225BAEE200A56325 /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B88D4225BAEE200A56325 /* StoriesViewController.swift */; };
 		4D1B88D8225BAEE200A56325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B88D6225BAEE200A56325 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		3F239D91226F752F003158A0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3F239D93226F7566003158A0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		4D0657302292318E00A3D0B5 /* SecondSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSecondViewController.swift; sourceTree = "<group>"; };
 		4D1B88CF225BAEE200A56325 /* Personalized Story App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personalized Story App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1B88D2225BAEE200A56325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D1B88D4225BAEE200A56325 /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				4D1B88D6225BAEE200A56325 /* Main.storyboard */,
 				4D1B88D4225BAEE200A56325 /* StoriesViewController.swift */,
 				3F239D91226F752F003158A0 /* SecondViewController.swift */,
+				4D0657302292318E00A3D0B5 /* SecondSecondViewController.swift */,
 				3F239D93226F7566003158A0 /* ThirdViewController.swift */,
 				4D51487D2270C4790053B271 /* StoryWriter.swift */,
 				4D1B88D9225BAEE500A56325 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			files = (
 				4D51487E2270C4790053B271 /* StoryWriter.swift in Sources */,
 				3F239D92226F752F003158A0 /* SecondViewController.swift in Sources */,
+				4D0657312292318E00A3D0B5 /* SecondSecondViewController.swift in Sources */,
 				4D1B88D5225BAEE200A56325 /* StoriesViewController.swift in Sources */,
 				3F239D94226F7566003158A0 /* ThirdViewController.swift in Sources */,
 				4D1B88D3225BAEE200A56325 /* AppDelegate.swift in Sources */,

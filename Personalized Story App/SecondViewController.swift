@@ -20,22 +20,14 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var nameThreeTextField: UITextField!
     @IBOutlet weak var nameFourTextField: UITextField!
     @IBOutlet weak var nameFiveTextField: UITextField!
-    @IBOutlet weak var nameSixTextField: UITextField!
-    @IBOutlet weak var nameSevenTextField: UITextField!
-    @IBOutlet weak var nameEightTextField: UITextField!
-    @IBOutlet weak var nameNineTextField: UITextField!
-    @IBOutlet weak var nameTenTextField: UITextField!
+
     
     @IBOutlet weak var pn1SegmentedController: UISegmentedControl!
     @IBOutlet weak var pn2SegmentedController: UISegmentedControl!
     @IBOutlet weak var pn3SegmentedController: UISegmentedControl!
     @IBOutlet weak var pn4SegmentedController: UISegmentedControl!
     @IBOutlet weak var pn5SegmentedController: UISegmentedControl!
-    @IBOutlet weak var pn6SegmenetedController: UISegmentedControl!
-    @IBOutlet weak var pn7SegmentedController: UISegmentedControl!
-    @IBOutlet weak var pn8SegmentedController: UISegmentedControl!
-    @IBOutlet weak var pn9SegmentedController: UISegmentedControl!   
-    @IBOutlet weak var pn10SegmentedController: UISegmentedControl!
+    
     
     var segmentedControllersArray = [UISegmentedControl]()
     
@@ -47,11 +39,6 @@ class SecondViewController: UIViewController {
         segmentedControllersArray.append(pn3SegmentedController)
         segmentedControllersArray.append(pn4SegmentedController)
         segmentedControllersArray.append(pn5SegmentedController)
-        segmentedControllersArray.append(pn6SegmenetedController)
-        segmentedControllersArray.append(pn7SegmentedController)
-        segmentedControllersArray.append(pn8SegmentedController)
-        segmentedControllersArray.append(pn9SegmentedController)
-        segmentedControllersArray.append(pn10SegmentedController)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -68,18 +55,13 @@ class SecondViewController: UIViewController {
         storyWriter.nameThree = nameThreeTextField.text!
         storyWriter.nameFour = nameFourTextField.text!
         storyWriter.nameFive = nameFiveTextField.text!
-        storyWriter.nameSix = nameSixTextField.text!
-        storyWriter.nameSeven = nameSevenTextField.text!
-        storyWriter.nameEight = nameEightTextField.text!
-        storyWriter.nameNine = nameNineTextField.text!
-        storyWriter.nameTen = nameTenTextField.text!
-        
-        let dvc = segue.destination as! ThirdViewController
+       
+        let dvc = segue.destination as! SecondSecondViewController
         dvc.storyWriter = self.storyWriter
         
     }
     
-    @IBAction func playButton(_ sender: UIButton) {
+    @IBAction func nextButton(_ sender: Any) {
         for segmentedController in segmentedControllersArray {
             switch segmentedController.selectedSegmentIndex {
             case 0:
