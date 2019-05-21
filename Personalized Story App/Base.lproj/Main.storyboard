@@ -272,23 +272,23 @@
                                     <action selector="nextButton:" destination="zR2-0p-fPi" eventType="touchUpInside" id="IZD-ug-w5C"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6h-3g-pCp">
-                                <rect key="frame" x="28" y="64" width="319" height="503"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000000000002" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l6h-3g-pCp">
+                                <rect key="frame" x="0.0" y="64" width="375" height="634"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="319" id="EjO-zm-ZUX"/>
-                                    <constraint firstAttribute="height" constant="503" id="efj-Zs-fqb"/>
+                                    <constraint firstAttribute="width" constant="375" id="0LL-S0-xxd"/>
+                                    <constraint firstAttribute="height" constant="634" id="mI4-9o-Ll0"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="wAd-20-hEM" secondAttribute="bottom" constant="20" symbolic="YES" id="IyE-QR-sXC"/>
-                            <constraint firstItem="wAd-20-hEM" firstAttribute="centerX" secondItem="l6h-3g-pCp" secondAttribute="centerX" id="eRU-QJ-nDV"/>
-                            <constraint firstItem="l6h-3g-pCp" firstAttribute="centerX" secondItem="bBO-Nr-qug" secondAttribute="centerX" id="gkk-Zt-Zf3"/>
-                            <constraint firstItem="l6h-3g-pCp" firstAttribute="centerY" secondItem="bBO-Nr-qug" secondAttribute="centerY" constant="-18" id="gzD-l1-RCg"/>
+                            <constraint firstItem="l6h-3g-pCp" firstAttribute="centerX" secondItem="bBO-Nr-qug" secondAttribute="centerX" id="LQr-az-XO8"/>
+                            <constraint firstAttribute="bottom" secondItem="wAd-20-hEM" secondAttribute="bottom" constant="20" symbolic="YES" id="W6L-XD-DZ2"/>
+                            <constraint firstItem="l6h-3g-pCp" firstAttribute="top" secondItem="BSR-A5-wy5" secondAttribute="top" id="h0z-1g-Bc6"/>
+                            <constraint firstItem="l6h-3g-pCp" firstAttribute="centerX" secondItem="wAd-20-hEM" secondAttribute="centerX" id="hg7-Gv-0mD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BSR-A5-wy5"/>
                     </view>
@@ -298,7 +298,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3v-pW-au4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3646" y="200"/>
+            <point key="canvasLocation" x="3645.5999999999999" y="199.25037481259372"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Fw0-hM-HGf">
@@ -429,9 +429,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aq5-Qe-R02">
-                                        <rect key="frame" x="165" y="294" width="54" height="40"/>
+                                        <rect key="frame" x="160" y="284" width="54" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="24"/>
+                                        <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="24"/>
                                         <state key="normal" title="Play!">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -442,16 +442,14 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="332" id="3Dn-61-Q1Q"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ipl-b9-Q0h" firstAttribute="leading" secondItem="hrV-dn-xpK" secondAttribute="leading" id="285-25-5WE"/>
-                            <constraint firstItem="ipl-b9-Q0h" firstAttribute="top" secondItem="bxH-wG-HHA" secondAttribute="top" id="KhY-PZ-V49"/>
-                            <constraint firstItem="ipl-b9-Q0h" firstAttribute="centerX" secondItem="hrV-dn-xpK" secondAttribute="centerX" id="vQD-Ex-ILw"/>
+                            <constraint firstItem="ipl-b9-Q0h" firstAttribute="leading" secondItem="hrV-dn-xpK" secondAttribute="leading" id="0TV-0D-YId"/>
+                            <constraint firstAttribute="trailing" secondItem="ipl-b9-Q0h" secondAttribute="trailing" id="Lp3-p7-I1t"/>
+                            <constraint firstItem="ipl-b9-Q0h" firstAttribute="top" secondItem="bxH-wG-HHA" secondAttribute="top" id="NUf-y1-aDv"/>
+                            <constraint firstItem="bxH-wG-HHA" firstAttribute="bottom" secondItem="ipl-b9-Q0h" secondAttribute="bottom" constant="271" id="UAL-7e-7O6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bxH-wG-HHA"/>
                     </view>

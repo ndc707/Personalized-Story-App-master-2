@@ -82,7 +82,7 @@ class ThirdViewController: UIViewController {
         
         if part == 5 {
             if storyWriter.isStoryOne == true {
-                let alert15 = UIAlertController(title: "Death Toll: 4", message: " Unfortunately, \(storyWriter.nameSix) has met \(storyWriter.pp[5]) untimely demise. Dead: \(storyWriter.nameTwo), \(storyWriter.nameThree), \(storyWriter.nameFive), \(storyWriter.nameSix) ", preferredStyle: .alert)
+                let alert15 = UIAlertController(title: "Death Toll: 3", message: " Unfortunately, \(storyWriter.nameFive) has met \(storyWriter.pp2[4]) untimely demise. Dead: \(storyWriter.nameTwo), \(storyWriter.nameThree), \(storyWriter.nameFive)", preferredStyle: .alert)
                 alert15.addAction(UIAlertAction(title: "Oh Well", style: .default, handler: nil))
                 self.present(alert15, animated: true)
                 storyLabel.text = storyWriter.writeStory15()
@@ -103,7 +103,7 @@ class ThirdViewController: UIViewController {
         
         if part == 7 {
             if storyWriter.isStoryOne == true {
-                let alert17 = UIAlertController(title: "Death Toll: 5", message: " Unfortunately, \(storyWriter.nameTen) has met \(storyWriter.pp[9]) untimely demise. Dead: \(storyWriter.nameTwo), \(storyWriter.nameThree), \(storyWriter.nameFive), \(storyWriter.nameSix), \(storyWriter.nameTen) ", preferredStyle: .alert)
+                let alert17 = UIAlertController(title: "Death Toll: 5", message: " Unfortunately, \(storyWriter.nameTen) has met \(storyWriter.pp2[4]) untimely demise. Dead: \(storyWriter.nameTwo), \(storyWriter.nameThree), \(storyWriter.nameFive), \(storyWriter.nameSix), \(storyWriter.nameTen) ", preferredStyle: .alert)
                 alert17.addAction(UIAlertAction(title: "Oh Well", style: .default, handler: nil))
                 self.present(alert17, animated: true)
                 storyLabel.text = storyWriter.writeStory17()
@@ -127,14 +127,24 @@ class ThirdViewController: UIViewController {
         
         if part == 9 {
             if storyWriter.isStoryOne == true {
+                let alert19 = UIAlertController(title: "Death Toll: 1", message: " Unfortunately, \(storyWriter.nameTwo) has met \(storyWriter.pp[1]) untimely demise.", preferredStyle: .alert)
+                alert19.addAction(UIAlertAction(title: "Oh Well", style: .default, handler: nil))
+                self.present(alert19, animated: true)
                 storyLabel.text = storyWriter.writeStory19()
             }
             else {
                 storyLabel.text = storyWriter.writeStory29()
             }
         }
+        if part == 10 {
+            let alert = UIAlertController(title: "Death Toll: 9", message: " Unfortunately, \(storyWriter.nameFour) has met \(storyWriter.pp[3]) untimely demise. Congrats \(storyWriter.nameNine) you are the sole survivor!", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Yay?", style: .default, handler: nil))
+            self.present(alert, animated: true)
             
-        if part >= 10 {
+            storyLabel.text = "Either something went wrong or you've reached the end. Thanks for playing!"
+        }
+        
+        if part >= 11 {
             storyLabel.text = "Either something went wrong or you've reached the end. Thanks for playing!"
         }
     }

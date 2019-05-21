@@ -38,7 +38,7 @@ class StoryWriter {
         return "\(nameOne) woke up to darkness. Complete and utter darkness. \(pp[0]) head was pounding. With great pain, \(np[0]) twisted \(pp[0]) head to the left. Next to \(thrdpp[0]) was \(pp[0]) best friend \(nameTwo). Thankful for a familiar face in what seemed like endless darkness \(nameOne) tried to wake \(nameTwo). \(pp[1]) head rolled limply to the side. \(nameTwo) was dead."
     }
     func writeStory11() -> String {
-        return "On one very unusual night, 10 people found themselves up in a house isolated deep in the woods with no memory of their pasts or how they got there. \(nameThree) woke up first in a dimly lit room. \(np[2]) looked around and saw 7 other people still lying on the ground, unconscious. There were two large doors, one to \(pp[2]) right and one to \(pp[2]) left. Being that \(nameThree) was still a bit out of it from being knocked out on the floor, \(np[2]) decided to ignore the unconscious people and walk towards the right door. Right is right, after all... right?” \(np[2])  thought. As soon as \(np[2]) stepped through the door \(pp[2]) scream echoed through the empty corridor"
+        return "On one very unusual night, 10 people found themselves up in a house isolated deep in the woods with no memory of their pasts or how they got there. \(nameThree) was the first to wake up in the dimly lit room. \(np[2]) looked around and saw 7 other people still lying on the ground, unconscious. There were two large doors, one to \(pp[2]) right and one to \(pp[2]) left. Being that \(nameThree) was still a bit out of it from being knocked out on the floor, \(np[2]) decided to ignore the unconscious people and walk towards the right door. Right is right, after all... right?” \(np[2])  thought. As soon as \(np[2]) stepped through the door \(pp[2]) scream echoed through the empty corridor"
 
     }
     func writeStory12() -> String {
@@ -48,7 +48,7 @@ class StoryWriter {
         return "As \(nameFour) woke the strangers \(np[3]) heard a distant hum. It was almost like it was calling out to \(thrdpp[3]). \(nameFour) asked the others if they could hear it, but the only replies were blank stares. What do you mean? One of the 6 strangers said warily. \(nameFour) was mesmerized by the distant hum. Yes, it was definitely trying to tell \(thrdpp[3]) something. \(np[3]) walked further into the corridor to the left, hoping to find the source. As \(np[3]) did so, the others followed hoping to find safety as one big group. As soon as everyone started moving through the narrow corridor, spikes sprang from the walls, killing \(nameFive) as well as injuring \(nameSix). The rest ran for their lives."
     }
     func writeStory14() -> String {
-        return "After having run for what seemed like an eternity, the rest of the group finally caught up with \(nameFour) who stood there, mouth agape. Before \(thrdpp[3]), was a vast, dark forest. They had not even stopped for a minute when a screech startled everyone. It was coming from the darkness behind them. Getting closer and closer. “Run!” shouted \(nameSeven). They all began running, one after another they went deeper into the eerie forest. \(nameSix)'s injuries finally caught up to \(thrdpp2[0]) and \(np2[0]) collapsed. \(nameSix) tried getting up but it was too late because the screeching thing had caught up. Before \(nameSix) could even make a noise, the massive creature swallowed \(thrdpp2[0]) whole."
+        return "After having run for what seemed like an eternity, the rest of the group arrived at a door leading outside. \(nameFour) stood there, mouth agape. Before \(thrdpp[3]), was a vast, dark forest. They had not even stopped for a minute when a screech startled everyone. It was coming from the darkness behind them. Getting closer and closer. “Run!” shouted \(nameSeven). They all began running, one after another they went deeper into the eerie forest. \(nameSix)'s injuries finally caught up to \(thrdpp2[0]) and \(np2[0]) collapsed. \(nameSix) tried getting up but it was too late because the screeching thing had caught up. Before \(nameSix) could even make a noise, the massive creature swallowed \(thrdpp2[0]) whole."
     }
     func writeStory15() -> String {
         
@@ -62,20 +62,23 @@ class StoryWriter {
 
     }
     func writeStory18() -> String {
-        return "This is story 1.8"
+        return "As \(nameFour) ran away from the rats, \(np[3]) stumbled upon \(nameSeven) who was passed out near a fallen tree. \(nameFour) ran towards \(thrdpp2[1]) and tried helping \(thrdpp2[1]) up. As \(nameSeven) regained consciousness \(np2[1]) began yelling. “We need to get out of here,” \(np2[1]) said frantically, ”it’s gonna come back.” \(nameFour) looked at \(thrdpp2[1]) with concern. “What?“ \(nameFour)'s face twisted in fear. \(nameSeven) spun around to find out what \(nameFour) was looking at, but there was nothing. \(nameFour) turned back to see nothing but a bloody leg left behind."
     }
     func writeStory19() -> String {
-        return "This is story 1.9"
+        return "\(nameFour) started to hyperventilate \(np[3]) stumbled backward – away from the bloody leg. \(pp[3]) foot caught on a root and \(np[3]) fell backward through a bush. As \(np[3]) caught \(pp[3]) breath, the silence around \(thrdpp[3]) was both comforting and terrifying, but it was soon broken. \(np[3]) heard something or someone running through the forest behind \(thrdpp[3]). They were moving quickly. \(np[3]) didn't want to stick round to find out who it was. \(np[3]) tried to get up but the bush stated to close around \(thrdpp[3]) “Help!” \(np[3]) yelled desperately, “HE-” \(nameNine) heard a voice calling for help. \(np2[3]) sprinted in the direction of the voice. \(np2[3]) came upon a clearing where \(np2[3]) was sure the voice was coming from, but there was no one there. The only thing there was a strangly large bush in the middle of the clearing."
     }
+    
     // STORY TWO
     func writeStory20() -> String {
         return "\(nameOne) was surrounded without hope of escape. The undead slowly clawed their way towards \(thrdpp[0]). \(nameOne) searched frantically for a weapon. Any weapon. Unfortunately \(nameOne) was standing on top of a car and typically people dont keep their stockpiled weapons on to of their car. Suddenly a sharp pain pierced \(pp[0]) ankle. \(nameOne) screamed in agony as the zombies finally reached \(pp[0])"
     }
+        
     func writeStory21() -> String {
-        return "This is story 2.1"
+        return "\(nameThree) heard a scream in the distance. \(np[2]) looked around. There were pieces of metal and parts of cars lying everywhere. How had \(np[2]) gotten there? \(nameThree) called out to see if there was anyone else around. \(np[2]). “Help! Over here.” someone called in response. \(np[2]) found \(nameFive) and \(nameTwo) huddled over a bleeding \(nameFour). 'What happened to \(thrdpp[3])?' \(nameThree) asked. We don't know, we just found \(thrdpp[3]) lying there bleeding said \(nameFive). “Let’s get \(thrdpp[3]) out of here” \(nameThree) said."
     }
+        
     func writeStory22() -> String {
-        return "This is story 2.2"
+        return "They all grabbed \(nameFour) and carried \(thrdpp[3]) towards a worn down minivan and laid \(thrdpp[3]) inside. “We gotta find a doctor” \(nameTwo) said. “If you haven’t noticed we are in the middle of nowhere surrounded by tetanus and junk.” \(nameFive) sarcastically commented. “It would be best to find water to wash the blood off of\(thrdpp[3])” \(nameThree) said. \(nameFive) and \(nameThree) left \(nameFour) and \(nameTwo) behind and headed towards some worn down houses in search of water. On their way they heard rustling behind them but everytime they turned around no one was there. Eventually found an old rusty water pump. \(nameThree) walked up to it. As he/she bent down to grab a bucket, a zombie grabbed her."
     }
     func writeStory23() -> String {
         return "This is story 2.3"
